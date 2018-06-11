@@ -1,11 +1,11 @@
 # 517 Exercises: OO Design Principles
 
-Recent Progress: Began implementation of "bad" examples for SOLID principles. The fill-in-the-blank "good" exercises should follow logically from the "bad" examples, hence the focus on completion of those first.
+Recent Progress: Finished implementation of the first draft of "bad", or principle violating, examples for each of the 5 SOLID principles.
 
 ## Progress: SOLID exercises
 
 ### Single Responsibility Principle
-  * Bad Example: Incomplete
+  * Bad Example: **Complete**
   * Fill-in-the-Blank good example: Incomplete
 
 ### Open/Closed Principle
@@ -21,7 +21,7 @@ Recent Progress: Began implementation of "bad" examples for SOLID principles. Th
   * Fill-in-the-Blank good example: Incomplete
   
 ### Dependency Inversion Principle
-  * Bad Example: Incomplete
+  * Bad Example: **Complete**
   * Fill-in-the-Blank good example: Incomplete
   
 ## Progress: GRASP exercises
