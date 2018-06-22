@@ -10,6 +10,6 @@ Main class - ProgramRunner.java
 
 In this example, ProgramRunner.java is responsible for running programs from several programming languages. Two classes (PythonProgram and RubyProgram) implement the Program interface, which has a getCode() and a getType() method. ProgramRunner has to figure out which type of program it has been given in order to run it, and therefore has an ugly if statement followed by a seperate method to run every type of program. In production, such a system would quickly grow unwieldy, as adding any type of program requires adding to the if statment and adding new methods to the ProgramRunner, breaking the Open/Closed Principle. 
 
-## "Good Example" Idea
+## "Good Example"
 
-For the Good Example (not yet completed), one would simply add a "runProgram()" method to the Program interface. This would render the getType() method AND the entire ProgramRunner class obsolete. 
+The Good example, derived from the Bad one, corrects the above issues by simply adding a "runProgram" method to the Program interface. This renders the entire ProgramRunner class obsolete, and allows each class to handle it's own execution, rather than being tightly coupled to a ProgramRunner class. As a result of this change, new Program types can be added without needing to also update the ProgramRunner class.
