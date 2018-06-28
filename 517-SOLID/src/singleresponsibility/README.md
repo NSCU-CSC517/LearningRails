@@ -12,6 +12,6 @@ Main class: CityMap
 
 In this example, the CityMap class represents a map consisting of a list of cities with various attributes. Although this represents a single logical object, the CityMap class takes on several very separate pieces of functionality which should, according to this principle, be divided into several classes. Those functionalities include managing the list of cities (add and remove), drawing the map on the screen, and calculating the total population
 
-## "Good" Example ideas
+## "Good" Example
 
-The good example could simply consist of splitting this functionality into several smaller classes. For example, "CityList" and "MapView". I would like to simplify the bad example if possible beforehand, however, as it is most likely possible to demonstrate the principle with fewer lines of code. 
+The good example simply splits the CityMap class into two classes - Map and CityList. CityList maintains the ArrayList of cities and also allows calculating the total population. The Map class focuses solely on drawing the map on a screen. This fixes the issues with the "Bad" example, as each class now focuses solely on operations related to one set of data.
