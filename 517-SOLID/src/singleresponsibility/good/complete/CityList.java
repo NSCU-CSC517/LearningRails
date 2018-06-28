@@ -1,17 +1,12 @@
-package singleresponsibility.bad;
+package singleresponsibility.good.complete;
 
 import java.util.ArrayList;
 
-public class CityMap {
+public class CityList {
 	ArrayList<City> cities = new ArrayList<City>();
-	String map_name;
-	int height;
-	int width;
 	
-	public CityMap(String name, int h, int w) {
-		this.map_name = name;
-		this.height = h;
-		this.width = w;
+	public CityList() {
+	
 	}
 	
 	public void addCity(City c) {
@@ -20,10 +15,6 @@ public class CityMap {
 	
 	public ArrayList<City> getCities(){
 		return cities;
-	}
-	
-	public void displayCities() {
-		System.out.println("Drawing " + map_name + " with dimensions " + height + " x " + width);
 	}
 	
 	public int getTotalPopulation() {
