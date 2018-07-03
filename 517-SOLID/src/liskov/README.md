@@ -5,4 +5,5 @@
 In short, if X is a Y, it should be able to do everything a Y can do. Any time you replace a Y with an X, there should not be any unexpected side effects. For example, a Square is a Rectangle, but making Square a subclass of Rectangle would make Rectangle's setWidth() and setHeight() methods behave strangely (as a square would have to set both for either method).
 
 ## "Bad" Example
-This example is very similar to the square-rectangle example. In this case, an Ostrich is a subclass of Bird. Bird is an abstract class with, among other things, a flyTo(height) method. However, since an Ostrich can't fly, it does not behave as expected, and is forced to throw an UnsupportedOperationException on what should be a core feature of a Bird.
+In this example, a Computer object keeps track of it's amount of RAM and it's OS version. It also has methods for upgrading the RAM and updating the OS. Two classes, a DesktopComputer and a Phone, extend this class and implement it's methods. A ComputerUpgrader object claims to be able to upgrade any Computer (that is, add more RAM and update the OS), but it really can't add more RAM to a phone, so it has to check to make sure the Computer object it has been given isn't a Phone. This violates the LSP, as a Phone cannot fully be substituted for a Computer.
+
