@@ -15,3 +15,12 @@ In this example, the CityMap class represents a map consisting of a list of citi
 ## "Good" Example
 
 The good example simply splits the CityMap class into two classes - Map and CityList. CityList maintains the ArrayList of cities and also allows calculating the total population. The Map class focuses solely on drawing the map on a screen. This fixes the issues with the "Bad" example, as each class now focuses solely on operations related to one set of data.
+
+## Fill-in-the-blank answers
+
+1. City
+2. City
+3. population
+4. CityList
+5. CityList
+6. 
