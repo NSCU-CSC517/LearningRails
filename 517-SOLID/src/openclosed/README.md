@@ -13,3 +13,11 @@ In this example, ProgramRunner.java is responsible for running programs from sev
 ## "Good Example"
 
 The Good example, derived from the Bad one, corrects the above issues by simply adding a "runProgram" method to the Program interface. This renders the entire ProgramRunner class obsolete, and allows each class to handle it's own execution, rather than being tightly coupled to a ProgramRunner class. As a result of this change, new Program types can be added without needing to also update the ProgramRunner class.
+
+## Fill-in-the-blank answers
+1. getType
+2. runProgram
+3. Program
+4. runProgram
+5. Program
+6. getCode
