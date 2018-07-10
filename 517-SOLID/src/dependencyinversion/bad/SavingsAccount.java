@@ -10,9 +10,9 @@ public class SavingsAccount {
 		return balance;
 	}
 	
-	public void removeMoney(int amount) {
+	public void withdraw(int amount) {
 		if (withdrawals_this_month >= MAX_WITHDRAWALS_PER_MONTH)
-			throw new UnsupportedOperationException("Too many withdrawals this month! (US Regulation D)");
+			throw new UnsupportedOperationException("Too many withdrawals this month! (Federal Reserve Regulation D)");
 		if ( balance >= amount) {
 			balance -= amount;
 			withdrawals_this_month+=1;
@@ -22,7 +22,7 @@ public class SavingsAccount {
 		
 	}
 	
-	public void addMoney(int amount) {
+	public void deposit(int amount) {
 		balance+=amount;
 	}
 }

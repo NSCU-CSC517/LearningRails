@@ -1,6 +1,6 @@
-package dependencyinversion.good.complete;
+package dependencyinversion.good.incomplete;
 
-public class SavingsAccount implements BasicAccount{
+public class SavingsAccount implements ___{ //7
 	int balance;
 	double interest_rate = 0.0125;
 	int withdrawals_this_month = 0;
@@ -10,9 +10,9 @@ public class SavingsAccount implements BasicAccount{
 		return balance;
 	}
 	
-	public void withdraw(int amount) {
+	public void ___(int amount) { //8
 		if (withdrawals_this_month >= MAX_WITHDRAWALS_PER_MONTH)
-			throw new UnsupportedOperationException("Too many withdrawals this month! (US Regulation D)");
+			throw new UnsupportedOperationException("Too many withdrawals this month! (Federal Reserve Regulation D)");
 		if ( balance >= amount) {
 			balance -= amount;
 			withdrawals_this_month+=1;

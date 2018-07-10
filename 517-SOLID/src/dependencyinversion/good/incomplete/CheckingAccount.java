@@ -1,6 +1,6 @@
-package dependencyinversion.bad;
+package dependencyinversion.good.incomplete;
 
-public class CheckingAccount {
+public class CheckingAccount implements ___{ //5
 	int balance;
 	double interest_rate = 0.003;
 	
@@ -8,7 +8,7 @@ public class CheckingAccount {
 		return balance;
 	}
 	
-	public void withdraw(int amount) {
+	public void ___(int amount) { //6
 		if ( balance >= amount)
 			balance -= amount;
 		else

@@ -8,14 +8,14 @@ public class CheckingAccount implements BasicAccount{
 		return balance;
 	}
 	
-	public void removeMoney(int amount) {
+	public void withdraw(int amount) {
 		if ( balance >= amount)
 			balance -= amount;
 		else
 			throw new UnsupportedOperationException("Not enough money!");
 	}
 	
-	public void addMoney(int amount) {
+	public void deposit(int amount) {
 		balance+=amount;
 	}
 }

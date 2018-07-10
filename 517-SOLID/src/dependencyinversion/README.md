@@ -16,4 +16,15 @@ In this example, a Bank class (representing, well, a Bank) is a high-level class
 ## "Good" Example
 Main Class: Bank / Account
 
-To correct the above issues, a layer of abstraction between the various types of accounts and the high-level Bank class is added. In this case, a simple BasicAccount interface is added between the layers. Although each account may process transactions in different ways (for example, US Regulation D requires that savings accounts limit the number of transactions per month, but this does not apply to Checking accounts), a simple, uniform interface can be provided. This dramatically simplifies the Bank class, and will allow for new types of accounts to be added easily. 
+To correct the above issues, a layer of abstraction between the various types of accounts and the high-level Bank class is added. In this case, a simple BasicAccount interface is added between the layers. Although each account may process transactions in different ways (for example, Federal Reserve Regulation D requires that savings accounts limit the number of transactions per month, but this does not apply to Checking accounts), a simple, uniform interface can be provided. This dramatically simplifies the Bank class, and will allow for new types of accounts to be added easily.
+
+## Fill-in-the-blank answers
+
+1. BasicAccount
+2. BasicAccount
+3. getBalance
+4. withdraw
+5. BasicAccount
+6. withdraw
+7. BasicAccount
+8. withdraw 
