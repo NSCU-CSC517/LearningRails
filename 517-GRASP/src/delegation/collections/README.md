@@ -11,3 +11,4 @@ Note: will benefit from a more complex example.
 3. list
 4. list
 5. size
+6. AlwaysSortedArrayList
