@@ -1,4 +1,4 @@
-package delegation.complete;
+package delegation.employees.complete;
 
 public class SalaryPayCalculator {
 	

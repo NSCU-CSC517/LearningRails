@@ -1,4 +1,4 @@
-package delegation.complete;
+package delegation.employees.complete;
 
 public class HourlyPayCalculator {
 	public static float calculateMonthlyPay(float hourly_pay, float hours_worked, float tax_rate) {
