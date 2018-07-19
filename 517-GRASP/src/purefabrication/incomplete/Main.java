@@ -14,7 +14,7 @@ public class Main {
 		EventStorage.___(e1); //3
 		//...
 		//4            //5
-		___ e2 = new Event(new Date(), "Server 1", "Started webapp");
+		___ e2 = new ___(new Date(), "Server 1", "Started webapp");
 		EventStorage.___(e2); //6
 		//...
 		//7             //8
