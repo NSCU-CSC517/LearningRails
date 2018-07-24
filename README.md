@@ -1,43 +1,22 @@
 # 517 Exercises: OO Design Principles
 
-Recent Progress: Finished implementation of the first draft of "bad", or principle violating, examples for each of the 5 SOLID principles.
+Recent Progress: Finished first draft implementation of SOLID and GRASP exercises
 
-## Progress: SOLID exercises
+Google Forms: https://drive.google.com/open?id=14fKqr6jez8b2WQEMVFuFb6swTiYBKDVs
 
-### Single Responsibility Principle
-  * Bad Example: **Complete**
-  * Fill-in-the-Blank good example: Incomplete
+TODO:
 
-### Open/Closed Principle
-  * Bad Example: **Complete**
-  * Fill-in-the-Blank good example: Incomplete
-  
-### Liskov Substitution Principle
-  * Bad Example: **Complete**
-  * Fill-in-the-Blank good example: Incomplete
-  
-### Interface Segregation Principle
-  * Bad Example: **Complete**
-  * Fill-in-the-Blank good example: Incomplete
-  
-### Dependency Inversion Principle
-  * Bad Example: **Complete**
-  * Fill-in-the-Blank good example: Incomplete
-  
-## Progress: GRASP exercises
-
-Not yet started
-
-## Progress: Other exercises
-
-### Coupling
-
-* Examples created, but not yet converted to exercises
-
-### Cohesion
-
-* Example created (not pushed), not yet converted to exercise
-
-### Law of Demeter
-
-* Not yet started
+* Refactor several exercises to add complexity
+* Add additional exercises (such as ideas below)
+  * Law of Demeter / Least Knowledge
+  * DRY / KISS
+  * Favor composition over inheritance
+  * Hollywood principle (don't call us, we'll call you)
+  * Principles of package cohesion [LINK](http://wiki.c2.com/?PrinciplesOfObjectOrientedDesign)
+    * Reuse/Release equivelancy principle
+    * Common Closure principle
+    * Common Reuse principle
+  * Principles of package coupling (Same link as above)
+    * Acyclic Dependency principle
+    * Stable Dependencies principle
+    * Stable Abstractions principle
