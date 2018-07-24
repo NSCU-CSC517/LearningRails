@@ -23,3 +23,4 @@ The good example simply splits the CityMap class into two classes - Map and City
 3. population
 4. CityList
 5. CityList
+6. City

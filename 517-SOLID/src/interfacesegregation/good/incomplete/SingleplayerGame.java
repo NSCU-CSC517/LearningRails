@@ -2,11 +2,11 @@ package interfacesegregation.good.incomplete;
 													//4
 public class SingleplayerGame implements BasicGame, ____ {
 
-	public void getGameName() {
+	public void ___() { //5
 		System.out.println("Singleplayer Game");		
 	}
-				//5
-	public void ____() {
+				
+	public void pauseGame() {
 		System.out.println("Pausing game...");
 	}
 

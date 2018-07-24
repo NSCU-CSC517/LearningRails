@@ -9,8 +9,8 @@ public class CityList {
 	public CityList() {
 	
 	}
-	
-	public void addCity(City c) {
+	                    //6
+	public void addCity(___ c) {
 		cities.add(c);
 	}
 	

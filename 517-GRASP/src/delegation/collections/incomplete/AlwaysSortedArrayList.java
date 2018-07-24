@@ -5,7 +5,7 @@ import java.util.Collections;
 public class AlwaysSortedArrayList {
 	private ArrayList<String> list;
 	      
-		  //6
+		  //7
 	public ___ () {
 		list = new ___(); //1
 	}
@@ -35,12 +35,12 @@ public class AlwaysSortedArrayList {
 	
 	public void display() {
 		System.out.println("---");
-		for (String s : list )
+		for (String s : ___ ) //5
 			System.out.println(s);
 		System.out.println("---");
 	}
 	
 	public int size() {
-		return list.___(); //5
+		return list.___(); //6
 	}
 }

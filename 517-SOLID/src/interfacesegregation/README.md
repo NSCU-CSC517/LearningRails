@@ -18,4 +18,4 @@ This example is derived from the "Bad" Example. In this case, the single interfa
 2. getGameName
 3. pauseGame
 4. PausableGame
-5. pauseGame
+5. getGameName

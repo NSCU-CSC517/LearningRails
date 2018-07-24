@@ -10,5 +10,6 @@ Note: will benefit from a more complex example.
 2. list
 3. list
 4. list
-5. size
-6. AlwaysSortedArrayList
+5. list
+6. size
+7. AlwaysSortedArrayList
