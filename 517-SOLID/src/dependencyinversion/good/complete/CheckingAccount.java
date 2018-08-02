@@ -12,7 +12,7 @@ public class CheckingAccount implements BasicAccount{
 		if ( balance >= amount)
 			balance -= amount;
 		else
-			throw new UnsupportedOperationException("Not enough money!");
+			throw new UnsupportedOperationException("Insufficient Funds!");
 	}
 	
 	public void deposit(int amount) {

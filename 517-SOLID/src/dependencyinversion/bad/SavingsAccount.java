@@ -17,7 +17,7 @@ public class SavingsAccount {
 			balance -= amount;
 			withdrawals_this_month+=1;
 		}else
-			throw new UnsupportedOperationException("Not enough money!");
+			throw new UnsupportedOperationException("Insufficient Funds!");
 		
 		
 	}
