@@ -27,7 +27,7 @@ public class EmailSender {
 		return email;
 	}
 	
-	private boolean sendEmail(Email email) {
+	private boolean sendPreparedEmail(Email email) {
 		if (email.status == "Prepared To Send") {
 			System.out.println("Sending Email: " + email.header);
 			return true;
@@ -37,7 +37,7 @@ public class EmailSender {
 		}
 	}
 	
-	public void prepareAndSendEmail(String sender, String recepient, String header, String body) {
+	public void sendEmail(String sender, String recepient, String header, String body) {
 		boolean valid_sender = isValidSender(sender);
 		boolean valid_recepient = isValidRecepient(recepient);
 		boolean valid_header = isValidHeader(header);
@@ -46,7 +46,7 @@ public class EmailSender {
 		if ( valid_sender && valid_recepient && valid_header && valid_body ) {
 			Email email = new Email (sender, recepient, header, body);
 			email = prepareEmail(email);
-			sendEmail(email);
+			sendPreparedEmail(email);
 		} else {
 			System.out.println("Invalid Email!");
 		}

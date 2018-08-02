@@ -8,6 +8,6 @@ public class Client2 {
 		String body = "I need your input to validate the report";
 		
 		EmailSender es = new EmailSender();
-		es.prepareAndSendEmail(sender, recepient, header, body);
+		es.sendEmail(sender, recepient, header, body);
 	}
 }
