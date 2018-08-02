@@ -5,8 +5,8 @@ import java.util.Collections;
 public class AlwaysSortedArrayList {
 	private ArrayList<String> list;
 	      
-		  //7
-	public ___ () {
+
+	public ___ () { //7
 		list = new ___(); //1
 	}
 	
@@ -23,6 +23,8 @@ public class AlwaysSortedArrayList {
 		Collections.sort(___); //2
 	}
 	
+	/* set value of string at index to 's' */
+	/* corresponds to the ArrayList set method */
 	public void set(int index, String s) {
 		list.set(index, s);
 		Collections.sort(___); //3

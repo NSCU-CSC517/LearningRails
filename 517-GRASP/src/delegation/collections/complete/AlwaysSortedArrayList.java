@@ -22,6 +22,8 @@ public class AlwaysSortedArrayList {
 		Collections.sort(list);
 	}
 	
+	/* set value of string at index to 's' */
+	/* corresponds to the ArrayList set method */
 	public void set(int index, String s) {
 		list.set(index, s);
 		Collections.sort(list);
