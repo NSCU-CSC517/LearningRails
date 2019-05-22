@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Cookbook <%=yield(:title)%></title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<h1>Online Cookbook</h1>
+<p id="notice"><%= notice %></p>
+<%= yield %>
+<br><br>
+<% if !current_user.nil? %>
+  <%= @current_user.name %> <%= link_to "Profile", current_user %> <%= link_to "Log out", logout_url, method: :delete %><br><br>
+<% else %>
+  <%= link_to "Sign up", signup_url %> <%= link_to "Log in", login_url %><br><br>
+<% end %>
+
+<%= link_to "All chefs", users_url %> <%= link_to "List all recipes", recipes_url %> <%= link_to "Show all categories", categories_url %>
+
+</body>
+</html>
