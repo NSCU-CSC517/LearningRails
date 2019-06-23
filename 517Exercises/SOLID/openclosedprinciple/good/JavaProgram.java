@@ -9,9 +9,7 @@ public class JavaProgram implements Program {
         return "Java";
     }
 
-    /** public void __________(8)__________ {
-        System.out.println("Running Java program: " + getCode());
-    } */
+    // public void __________(8)__________() {
     public void runProgram() {
         System.out.println("Running Java program: " + getCode());
     }

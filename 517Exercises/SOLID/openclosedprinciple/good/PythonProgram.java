@@ -9,9 +9,7 @@ public class PythonProgram implements Program {
 		return "Python";
 	}
 
-	/** public void __________(4)__________ {
-		System.out.println("Running Python program: " + getCode());
-	} */
+	// public void __________(4)__________() {
 	public void runProgram() {
 		System.out.println("Running Python program: " + getCode());
 	}
