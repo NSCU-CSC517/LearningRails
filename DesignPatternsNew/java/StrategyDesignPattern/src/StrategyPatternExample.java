@@ -11,13 +11,19 @@ public class StrategyPatternExample {
 		Data data = null;
 		switch (datatype) {
 		case "d":
+			// data = __________(7)____________
 			data = new Database();
+
 			break;
 		case "c":
+			// data = __________(8)____________
 			data = new CSVData();
+			
 			break;
 		case "t":
+			// data = __________(9)____________
 			data = new TSVData();
+
 			break;
 		}
 		
