@@ -5,12 +5,13 @@ alteration operation, the list is returned to a sorted state.
 * It delegates most operations to ArrayList, but adds a Collections.sort operation when needed, similar to a decorator.
 * In this example, AlwaysSortedArrayList class is created, but incomplete.
 * You need to fill in the '__________________' blanks to complete the code.
+* Start with DelegationCollections.java file.
 
 ## Run the program
 To execute the program from command line, please run the following commands:
 ```
 javac DelegationCollections.java
-java StrategyPatternExample
+java DelegationCollections
 ```
 
 ## What needs to be done
