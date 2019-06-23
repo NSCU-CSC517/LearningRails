@@ -42,12 +42,14 @@ public class AlwaysSortedArrayList {
 	
 	public void display() {
 		System.out.println("---");
-		for (String s : list )
+		// for (String s : _________(5)_________)
+		for (String s : list)
 			System.out.println(s);
 		System.out.println("---");
 	}
 	
 	public int size() {
+	    // return list._________(6)_________();
 		return list.size();
 	}
 }

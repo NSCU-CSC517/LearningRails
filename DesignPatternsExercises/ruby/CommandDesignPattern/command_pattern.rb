@@ -5,22 +5,22 @@ require_relative 'tsv_extraction'
 class ExtractingTool
 
   def extraction(extraction)
-    # @extraction = ________(1)__________
+    # @extraction = _________(1)_________
     @extraction = extraction
   end
 
   def start_extraction
-    # ________(2)__________.call_correct_extraction
+    # _________(2)_________.call_correct_extraction
     @extraction.call_correct_extraction
   end
 end
 
 extracting_tool = ExtractingTool.new
-# extracting_tool.extraction(________(3)__________)
+# extracting_tool.extraction(_________(3)_________)
 extracting_tool.extraction(CSVExtraction.new('a.csv'))
 extracting_tool.start_extraction
 
-# extracting_tool.extraction(________(4)_________)
+# extracting_tool.extraction(_________(4)_________)
 extracting_tool.extraction(TSVExtraction.new('b.tsv'))
 extracting_tool.start_extraction
 

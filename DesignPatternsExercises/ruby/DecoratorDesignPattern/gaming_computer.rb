@@ -1,16 +1,17 @@
 require_relative 'hardware_customizer.rb'
 
 class GamingComputer < HardwareCustomizer
-  # __(5)__(newComp)
+  # _________(5)_________(new_comp)
   def initialize(new_comp)
-    # __(6)__
+    # _________(6)_________
     super new_comp
+
     @graphics = 2
     @graphics_cost = 10
   end
 
   def parts
-    # "#{__(7)__} Graphics Card = #{@graphics} GB"
+    # "#{_________(7)_________} Graphics Card = #{@graphics} GB"
     "#{@temp_comp.parts} Graphics Card = #{@graphics} GB"
   end
 

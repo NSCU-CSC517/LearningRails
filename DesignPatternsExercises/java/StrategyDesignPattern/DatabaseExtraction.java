@@ -1,13 +1,13 @@
 class DatabaseExtraction implements Extraction {
 
 	public void extract() {
-		// __________(4)___________
+		// _________(4)_________
 		open();
 
-		// __________(5)___________
+		// _________(5)_________
 		System.out.println("I will extract by reading rows and columns.");
 
-		// __________(6)___________
+		// _________(6)_________
 		close();
 	}
 

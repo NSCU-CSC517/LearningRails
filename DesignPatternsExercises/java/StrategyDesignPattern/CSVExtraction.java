@@ -1,13 +1,13 @@
 class CSVExtraction implements Extraction {
 
 	public void extract() {
-		//__________(1)___________
+		// _________(1)_________
 		open();
 
-		//__________(2)___________
+		// _________(2)_________
 		System.out.println("I will extract by separating row by commas.");
 
-		//__________(3)___________
+		// _________(3)_________
 		close();
 	}
 

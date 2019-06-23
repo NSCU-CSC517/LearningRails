@@ -10,7 +10,7 @@ class DBExtraction < Extraction
   end
 
   def call_correct_extraction
-    # _________(7)______________
+    # _________(7)_________
     DBExtractor.new.extract
   end
 
