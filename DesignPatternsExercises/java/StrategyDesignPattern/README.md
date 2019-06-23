@@ -1,4 +1,5 @@
-# This is Strategy Design Pattern Exercise in Java
+# Strategy Design Pattern Exercise in Java
+
 ## Description
 * In this example, extraction system for 3 types of files is created, but incomplete.
 * You need to fill in the '____________________' blanks to complete the code.

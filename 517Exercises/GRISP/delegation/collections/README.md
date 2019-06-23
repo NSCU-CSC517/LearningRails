@@ -1,4 +1,5 @@
-# This is Delegation Exercise - Collections in Java
+# Delegation Exercise - Collections in Java
+
 ## Description
 * In this example, an AlwaysSortedArrayList class maintains an array list of strings, and ensures that after any
 alteration operation, the list is returned to a sorted state.

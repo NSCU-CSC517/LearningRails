@@ -1,4 +1,5 @@
-# This is Command Design Pattern Exercise in Ruby
+# Command Design Pattern Exercise in Ruby
+
 ## Description
 * In this example, extracting tool of the file is created, but incomplete.
 * The concept here is exactly same as strategy pattern example you saw earlier, but of course, some implementation

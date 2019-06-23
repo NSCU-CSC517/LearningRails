@@ -1,4 +1,5 @@
-# This is Decorator Design Pattern Exercise in Ruby
+# Decorator Design Pattern Exercise in Ruby
+
 ## Description
 * In this example, decorator pattern for customized PC is created, but incomplete.
 * You need to fill in the '____________________' blanks to complete the code.
