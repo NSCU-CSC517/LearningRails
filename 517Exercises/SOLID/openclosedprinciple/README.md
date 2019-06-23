@@ -1,12 +1,12 @@
 # Open/Closed Principle Exercise
 
 ## Description
-* In this exercise, we show both good example that follow open/close principle and bad example that does not follow
-open/close principle.
+* In this exercise, we show both good example that follow open/closed principle and bad example that does not follow
+open/closed principle.
 * For the "Bad Example" you are not required to do any work, but encouraged to run the code and look at the
 implementation.
 * For the "Good Example", different programs and their running mechanism are created, but incomplete.
-* The overview of Open/Close Principle: "Software entities should be open for extension, but closed for modification".
+* The overview of Open/Closed Principle: "Software entities should be open for extension, but closed for modification".
 * In general, the behavior of a class should not need to be modified every time a new type of input is added.
 * This is somewhat related to the idea of the Information Expert from GRASP - that is, a class which contains data
 should manipulate it.
@@ -37,7 +37,7 @@ java OpenClosedPrincipleBad
 ```
 
 ## "Good Example"
-* Please fill in the '____________________'  blanks to make the program run successfully to follow Open/Close Principle.
+* Please fill in the '____________________'  blanks to make the program run successfully to follow Open/Closed Principle.
 * Check each file for blanks.
 * Enter missing statements (blanks) into Google Doc Exercise.
 * It is derived from the "Bad Example", corrects the issues by simply adding a "runProgram()" method to the Program
