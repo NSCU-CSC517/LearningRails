@@ -1,8 +1,5 @@
-
 interface Extraction {
-	public void extract();
-
+	void extract();
 	void open();
-
 	void close();
 }

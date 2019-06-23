@@ -1,5 +1,3 @@
-
-
 class CSVData implements Data {
 
 	public String whichDataType() {
@@ -7,9 +5,6 @@ class CSVData implements Data {
 	}
 
 	public void extractData() {
-
-		// blank below
 		new CSVExtraction().extract();
-
 	}
 }

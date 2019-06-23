@@ -1,11 +1,13 @@
-
 class TSVExtraction implements Extraction {
 
 	public void extract() {
-		// complete the method below
-		
+		// __________(10)____________
 		open();
+
+		// __________(11)____________
 		System.out.println("I will extract by separating row by tabs.");
+
+		// __________(12)____________
 		close();
 	}
 
@@ -14,7 +16,6 @@ class TSVExtraction implements Extraction {
 	}
 
 	public void close() {
-
 		System.out.println("Closing TSV file");
 	}
 }

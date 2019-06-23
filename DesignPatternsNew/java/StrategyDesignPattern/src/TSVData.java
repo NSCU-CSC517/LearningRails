@@ -1,4 +1,3 @@
-
 class TSVData implements Data {
 
 	public String whichDataType() {
@@ -6,8 +5,6 @@ class TSVData implements Data {
 	}
 
 	public void extractData() {
-
-		// blank below
 		new TSVExtraction().extract();
 	}
 }
