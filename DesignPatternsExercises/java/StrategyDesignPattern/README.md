@@ -2,6 +2,7 @@
 ## Description
 * In this example, extraction system for 3 types of files is created, but incomplete.
 * You need to fill in the '__________________' blanks to complete the code.
+* Start with StrategyPatternExample.java file.
 
 ## Run the program
 To execute the program from command line, please run the following commands:
