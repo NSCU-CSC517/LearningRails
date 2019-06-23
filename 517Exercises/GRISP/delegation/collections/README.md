@@ -9,7 +9,7 @@ alteration operation, the list is returned to a sorted state.
 ## Run the program
 To execute the program from command line, please run the following commands:
 ```
-javac Main.java
+javac DelegationCollections.java
 java StrategyPatternExample
 ```
 
