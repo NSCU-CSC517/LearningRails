@@ -1,4 +1,4 @@
-public class Main {
+public class DelegationCollections {
 
 	public static void main(String[] args) {
 		AlwaysSortedArrayList slist = new AlwaysSortedArrayList();
