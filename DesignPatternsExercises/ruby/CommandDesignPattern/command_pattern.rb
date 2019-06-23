@@ -10,7 +10,7 @@ class ExtractingTool
   end
 
   def start_extraction
-    # ________(2)__________.callCorrectExtraction
+    # ________(2)__________.call_correct_extraction
     @extraction.call_correct_extraction
   end
 end
