@@ -21,7 +21,7 @@ Below is the list of directories that were cloned as described above, authors of
     - *Author:* Brent Younce
     - *Email:* <bjyounce@ncsu.edu>
     - *Cloned From:* https://github.com/BrentYounce/517Exercises.git
-  - [DesignPatternsNew]
+  - [DesignPatternsExercises]
     - *Author:* Prashant Tanksali
     - *Email:* <prtanksa@ncsu.edu>
     - *Cloned From:* https://github.com/pranavnawathe/DesignPatternsNew.git
@@ -56,7 +56,7 @@ For all the questions related to this repository and the source code, please con
 
    [CSC/ECE 517]: <https://www.csc2.ncsu.edu/faculty/efg/517/s19/>
    [517Exercises]: <https://github.com/NSCU-CSC517/LearningRails/tree/master/517Exercises>
-   [DesignPatternsNew]: <https://github.com/NSCU-CSC517/LearningRails/tree/master/DesignPatternsNew>
+   [DesignPatternsExercises]: <https://github.com/NSCU-CSC517/LearningRails/tree/master/DesignPatternsNew>
    [cookbook_exercises]: <https://github.com/NSCU-CSC517/LearningRails/tree/master/cookbook_exercises>
-   [Ruby & Rails Exercises]: <https://docs.google.com/document/d/1DvLsr_cEHm7ZXYlws5b66_4Ic6lpk-TTprXb7WxVJWU/edit#heading=h.qevkkw85cv92>
+   [RubyOnRailsExercises]: <https://docs.google.com/document/d/1DvLsr_cEHm7ZXYlws5b66_4Ic6lpk-TTprXb7WxVJWU/edit#heading=h.qevkkw85cv92>
    [Dr. Edward F. Gehringer]: <https://www.csc.ncsu.edu/people/efg>
