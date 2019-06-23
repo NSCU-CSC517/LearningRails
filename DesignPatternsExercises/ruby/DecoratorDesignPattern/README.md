@@ -1,7 +1,7 @@
 # This is Decorator Design Pattern Exercise in Ruby
 ## Description
 * In this example, decorator pattern for customized PC is created, but incomplete.
-* You need to fill in the '__________________' blanks to complete the code.
+* You need to fill in the '____________________' blanks to complete the code.
 * Start with decorator_pattern.rb file
 
 ## Run the program
@@ -12,7 +12,7 @@ ruby decorator_pattern.rb
 ```
 
 ## What needs to be done
-* Please fill in the '__________________'  blanks to make the program run successfully to follow Decorator Pattern
+* Please fill in the '____________________'  blanks to make the program run successfully to follow Decorator Pattern
 * Check each file for blanks
 * Enter missing statements (blanks) into Google Doc Exercise
 

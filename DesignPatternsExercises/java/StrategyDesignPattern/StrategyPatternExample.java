@@ -11,17 +11,17 @@ public class StrategyPatternExample {
 		Data data = null;
 		switch (datatype) {
 		case "d":
-			// data = _________(7)_________
+			// data = __________(7)__________
 			data = new Database();
 
 			break;
 		case "c":
-			// data = _________(8)_________
+			// data = __________(8)__________
 			data = new CSVData();
 			
 			break;
 		case "t":
-			// data = _________(9)_________
+			// data = __________(9)__________
 			data = new TSVData();
 
 			break;
@@ -31,8 +31,3 @@ public class StrategyPatternExample {
 		sc.close();
 	}
 }
-
-
-
-
-

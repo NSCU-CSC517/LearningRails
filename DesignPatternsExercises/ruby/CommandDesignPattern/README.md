@@ -6,7 +6,7 @@ changes as per Command design pattern.
 * The correct extraction algorithm needs to be called in a way that reflects use of command design pattern.
 * To match the "correct" answers, if some method takes a file parameter, name the parameter a.csv, b.xx, c.xx, etc.,
 where "xx" is the correct file extension.
-* You need to fill in the '__________________' blanks to complete the code.
+* You need to fill in the '____________________' blanks to complete the code.
 * Start with command_pattern.rb file.
 
 ## Run the program
@@ -17,7 +17,7 @@ ruby command_pattern.rb
 ```
 
 ## What needs to be done
-* Please fill in the '__________________'  blanks to make the program run successfully to follow Command Pattern.
+* Please fill in the '____________________'  blanks to make the program run successfully to follow Command Pattern.
 * Check each file for blanks.
 * Enter missing statements (blanks) into Google Doc Exercise.
 

@@ -1,7 +1,7 @@
 # This is Strategy Design Pattern Exercise in Java
 ## Description
 * In this example, extraction system for 3 types of files is created, but incomplete.
-* You need to fill in the '__________________' blanks to complete the code.
+* You need to fill in the '____________________' blanks to complete the code.
 * Start with StrategyPatternExample.java file.
 
 ## Run the program
@@ -12,7 +12,7 @@ java StrategyPatternExample
 ```
 
 ## What needs to be done
-* Please fill-in the '__________________'  blanks to make the program run successfully to follow Design Pattern
+* Please fill-in the '____________________'  blanks to make the program run successfully to follow Design Pattern
 * Check each file for blanks
 * Enter missing statements (blanks) into Google Doc Exercise
 

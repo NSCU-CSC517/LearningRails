@@ -10,7 +10,7 @@ class TSVExtraction < Extraction
   end
 
   def call_correct_extraction
-    # _________(8)_________
+    # __________(8)__________
     TSVExtractor.new.extract
   end
 
