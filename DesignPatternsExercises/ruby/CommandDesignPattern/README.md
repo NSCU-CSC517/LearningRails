@@ -3,6 +3,8 @@
 * The concept here is exactly same as strategy pattern example you saw earlier, but of course, some implementation
 changes as per Command design pattern
 * The correct extraction algorithm needs to be called in a way that reflects use of command design pattern.
+* To match the "correct" answers, if some method takes a file parameter, name the parameter a.csv, b.xx, c.xx, etc.,
+where "xx" is the correct file extension.
 * You need to fill in the '__________________' blanks to complete the code.
 * Start with command_pattern.rb file
 
