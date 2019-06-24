@@ -1,4 +1,3 @@
-
 public class LightTheme extends Theme{
 	public LightTheme() {
 		setBackgroundColor("#fff");

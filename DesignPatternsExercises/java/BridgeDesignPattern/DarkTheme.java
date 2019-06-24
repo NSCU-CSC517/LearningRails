@@ -1,4 +1,3 @@
-
 public class DarkTheme extends Theme{
 	public DarkTheme() {
 		setBackgroundColor("#000");
