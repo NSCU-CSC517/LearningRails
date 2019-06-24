@@ -1,31 +1,22 @@
-package singleresponsibility.good.incomplete;
-
 import java.util.ArrayList;
 
 public class CityList {
-               //1                        //2
-	ArrayList<___> cities = new ArrayList<___>();
-	
-	public CityList() {
-	
-	}
-	                    //6
-	public void addCity(___ c) {
+	// ArrayList<__________(1)__________> cities = new ArrayList<__________(2)__________>();
+	ArrayList<City> cities = new ArrayList<>();
+
+	public void addCity(City c) {
+		// __________(3)__________.add(c);
 		cities.add(c);
 	}
-	
+
 	public ArrayList<City> getCities(){
 		return cities;
 	}
-	
+
 	public int getTotalPopulation() {
 		int total_population = 0;
-		for ( City c : cities)
+		for (City c : cities)
 			total_population += c.population;
 		return total_population;
 	}
-	
-	
-	
-	
 }
