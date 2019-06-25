@@ -2,7 +2,7 @@
 public class CheckingAccount implements BasicAccount {
 	private int balance = 0;
 	private double interest_rate = 0.003;
-	
+
 	public int getBalance() {
 		return balance;
 	}
@@ -14,7 +14,7 @@ public class CheckingAccount implements BasicAccount {
 		else
 			throw new UnsupportedOperationException("Insufficient Funds!");
 	}
-	
+
 	public void deposit(int amount) {
 		balance += amount;
 	}
