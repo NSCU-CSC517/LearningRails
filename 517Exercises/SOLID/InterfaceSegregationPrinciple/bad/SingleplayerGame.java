@@ -1,5 +1,3 @@
-package interfacesegregation.bad;
-
 public class SingleplayerGame implements Game {
 
 	public void getGameName() {
@@ -10,10 +8,8 @@ public class SingleplayerGame implements Game {
 		//A singleplayer game has no servers
 		throw new UnsupportedOperationException();
 	}
-	
+
 	public void pauseGame() {
 		System.out.println("Pausing game...");
 	}
-
-
 }

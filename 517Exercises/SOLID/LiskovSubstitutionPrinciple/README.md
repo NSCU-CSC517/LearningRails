@@ -36,6 +36,7 @@ cd bad
 javac LiskovSubstitutionPrincipleBad.java
 java LiskovSubstitutionPrincipleBad
 ```
+
 ## "Good Example"
 * Please fill in the '____________________'  blanks to make the program run successfully to follow Liskov Substitution
 Principle.
