@@ -44,6 +44,7 @@ Principle.
   * CityList
     * Maintains the ArrayList of cities
     * Calculates the total population
+* Start with good/SingleResponsibilityPrincipleGood.java file.
 
 ### Run the "Good Example" program
 To execute "Good Example" program from command line, please run the following commands:

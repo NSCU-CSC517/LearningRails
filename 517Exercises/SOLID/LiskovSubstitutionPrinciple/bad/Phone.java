@@ -1,5 +1,3 @@
-package liskov.bad;
-
 public class Phone extends Computer {
 
 	public void addRam(int gb) {
