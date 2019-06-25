@@ -4,13 +4,11 @@ import java.util.regex.Pattern;
 public class UKPostCode implements PostCode {
 	private String postalCode;
 
-	public UKPostCode(String postalCode)
-    {
+	public UKPostCode(String postalCode) {
 		// if(!__________(6)__________(postalCode)) {
     	if(!isValidPostalCode(postalCode)) {
     		throw new IllegalArgumentException("Invalid postcode");
     	}
-
     	this.postalCode = postalCode;
     }
 
@@ -26,5 +24,4 @@ public class UKPostCode implements PostCode {
 	public String getPostalCode() {
 		return  postalCode;
 	}
-
 }

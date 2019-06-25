@@ -24,7 +24,7 @@
     * Use two class hierarchies, where the interface hierarchy has-an abstract implementation
 
 ## Run the program
-To execute the program from command line, please run the following commands:
+To execute the program from command line, please use the following commands:
 ```
 javac BridgeClient.java
 java BridgeClient

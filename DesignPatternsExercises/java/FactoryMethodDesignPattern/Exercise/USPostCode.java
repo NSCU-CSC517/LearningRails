@@ -1,13 +1,10 @@
 public class USPostCode implements PostCode {
     private String postalCode;
 
-	public USPostCode(String postalCode)
-    {
-    	// if(!__________(7)__________(postalCode)) {
-    	if(!isValidPostalCode(postalCode)) {
+	public USPostCode(String postalCode) {
+    	if(!__________(7)__________(postalCode)) {
     		throw new IllegalArgumentException("Invalid postcode");
     	}
-
     	this.postalCode = postalCode;
     }
 
@@ -20,5 +17,4 @@ public class USPostCode implements PostCode {
 	public String getPostalCode() {
 		return  postalCode;
 	}
-
 }
