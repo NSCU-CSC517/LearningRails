@@ -4,7 +4,7 @@
 * In this exercise, we show both good example that follows Dependency Inversion Principle and bad example that does not.
 * For the "bad" example you are not required to do any work, but encouraged to run the code and look at the
 implementation.
-* For the "good" example, please fill in the '____________________' blanks to complete the code.
+* For the "good" example, please fill in the `____________________` blanks to complete the code.
 * The overview of the Dependency Inversion Principle:
   * High-level modules should not depend on low-level modules. Both should depend on abstractions.
   * Abstractions should not depend on details. Details should depend on abstractions.
@@ -43,7 +43,7 @@ java DependencyInversionPrincipleBad
 ```
 
 ## "Good" Example
-* Please fill in the '____________________'  blanks to make the program run successfully to follow Dependency Inversion
+* Please fill in the `____________________`  blanks to make the program run successfully to follow Dependency Inversion
 Principle.
 * Check each file for blanks.
 * Enter missing statements (blanks) into Google Doc Exercise.
