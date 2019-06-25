@@ -2,16 +2,13 @@ require_relative 'hardware_customizer.rb'
 
 class Laptop < HardwareCustomizer
   def initialize(new_comp)
-    # __________(3)__________
-    super new_comp
-
+    __________(3)__________
     @ssd = 200
     @ssd_cost = 80
   end
 
   def parts
-    # "#{__________(4)__________} Solid State Drive = #{@ssd} GB"
-    "#{@temp_comp.parts} Solid State Drive = #{@ssd} GB"
+    "#{__________(4)__________} Solid State Drive = #{@ssd} GB"
   end
 
   def cost

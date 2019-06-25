@@ -1,26 +1,16 @@
-# Decorator Design Pattern Exercise in Ruby
+# Decorator Design Pattern
 
-## Description
-* In this example, decorator pattern for customized PC is created, but incomplete.
-* You need to fill in the '____________________' blanks to complete the code.
-* Start with decorator_pattern.rb file
+## Exercise
+To share exercise with students, provide them with content of the `exercise/` directory.
+### Import Exercise into CS50 Sandbox
+To create exercise in the CS50 Sandbox, please follow the steps below:
+* Create new [CS50 Sandbox](https://sandbox.cs50.io)
+* Drag and drop ALL files from `exercise/` directory
+  * No need to change/modify any files
+  * Keep hierarchical structure of `exercise/` directory as is
+* Set the name for the new CS50 Sandbox
+* Get sharable link and share it with students in the corresponding Google form
 
-## Run the program
-To execute the program from command line, please run the following command:
-
-```
-ruby decorator_pattern.rb
-```
-
-## What needs to be done
-* Please fill in the '____________________'  blanks to make the program run successfully to follow Decorator Pattern
-* Check each file for blanks
-* Enter missing statements (blanks) into Google Doc Exercise
-
-## Expected Output
-Upon executing the program, you should see the following output:
-
-```
-Parts: RAM =256 MB ROM = 4 GB Solid State Drive = 200 GB Graphics Card = 2 GB
-Cost = 290
-```
+## Solution
+To test, view, and share solution for the exercise see content of the `solution/` directory. No need to change content
+of the `solution/` directory.
