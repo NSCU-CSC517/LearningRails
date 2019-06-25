@@ -11,10 +11,10 @@
   * Create objects without specifying the exact class of objects that will be created
   * Encapsulate object creation so that all object creation code can be kept at one place
 * It is used when program needs to:
-  * define the class of an object at runtime
-  * define the class of an object by passing parameter identifying the type of the device
-  * have the same method, BUT different parameter
-  * define an interface for creating an object, but let subclasses decide which class to instantiate
+  * Define the class of an object at runtime
+  * Define the class of an object by passing parameter identifying the type of the device
+  * Have the same method, BUT different parameter
+  * Define an interface for creating an object, but let subclasses decide which class to instantiate
 * Factory Method vs. Abstract Factory Design Pattern:
   * Factory Method is called from inside the class hierarchy (the abstract base class)
   * Whereas the AbstractFactory is used from the outside
