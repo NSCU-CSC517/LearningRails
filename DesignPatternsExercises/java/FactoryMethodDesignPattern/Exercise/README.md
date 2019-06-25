@@ -33,7 +33,7 @@ javac FactoryClient.java
 java FactoryClient
 ```
 
-## What needs to be done
+## Exercise
 * In this example, factory method for validation of post code is created, but incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Factory Method Design
 Pattern.

@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class StrategyPatternExample {
-
 	public static void main(String[] args) {
-	
+
 		System.out.println("Select one of the data types (d-Database/c-CSV/t-TSV): ");
 		Scanner sc = new Scanner(System.in);
 		String datatype = sc.nextLine();
@@ -11,22 +10,15 @@ public class StrategyPatternExample {
 		Data data = null;
 		switch (datatype) {
 		case "d":
-			// data = __________(7)__________
-			data = new Database();
-
+			data = __________(7)__________
 			break;
 		case "c":
-			// data = __________(8)__________
-			data = new CSVData();
-			
+			data = __________(8)__________
 			break;
 		case "t":
-			// data = __________(9)__________
-			data = new TSVData();
-
+			data = __________(9)__________
 			break;
 		}
-		
 		data.extractData();
 		sc.close();
 	}
