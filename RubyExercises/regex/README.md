@@ -1,5 +1,5 @@
 # Regular Expressions
-This folder contain exercises on Regular Expressions.
+This folder contains exercises and corresponding solutions on Regular Expressions.
 
 ## Exercise
 To share exercise with students, provide them with content of the `exercise/` directory either of `regex_1/` or

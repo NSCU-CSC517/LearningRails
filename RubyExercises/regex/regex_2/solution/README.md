@@ -11,16 +11,24 @@ ruby regex.rb
 ```
 
 ## Exercise
+* Please write down in order all the matches of `/[M-m]\d{2,},?/` found in the following strings:
+  * Apple10
+  * Banana1
+  * Lemon12
+  * Kiwi66
+  * Peach333
+  * PEAR22
 * Please fill in the `____________________`  blanks to make the program run successfully to see how Regular
 Expressions can be used.
-* A valid date format would be 2011-11-08.
-  * Assume the year can only be 20XX and February always has 28 days.
 
 ## Expected Output
 Upon executing the program, you should see the following output:
 
 ```
-true
+4
+
+
+3
+4
+3
 ```
-
-
