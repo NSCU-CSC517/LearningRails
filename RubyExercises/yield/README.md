@@ -1,5 +1,5 @@
-# Regular Expressions
-This folder contains exercises and corresponding solutions on Regular Expressions.
+# Yield in Ruby
+This folder contains exercises and corresponding solutions on keyword `yield` on how it can be used in Ruby.
 
 ## Exercise
 To share exercise with students, provide them with content of the `exercise/` directory of the desired exercise (if
