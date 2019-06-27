@@ -1,5 +1,5 @@
-# Yield in Ruby
-This folder contains exercises and corresponding solutions on keyword `yield` and how it can be used in Ruby.
+# Reflection in Ruby
+This folder contains exercises and corresponding solutions on Reflection in Ruby.
 
 ## Exercise
 To share exercise with students, provide them with content of the `exercise/` directory of the desired exercise (if
