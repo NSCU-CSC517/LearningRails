@@ -20,7 +20,7 @@ ruby collection_operators.rb
 * Please fill in the `____________________` blanks to make the program run successfully and get expected output.
 * Please call only one collection operator on `a = ['a','b','c','d']` or `b = [1,2,3,4]` to get the expected outputs
   * Without changing `a` nor `b`
-* Every time the answer contains a block, please use `x, y, z`, in that order, as parameter(s)
+* Every time the answer contains a block, please use `x`, `y`, `z`, in that order, as parameter(s)
 * **DO NOT** include any unnecessary blanks in the block.
   * Example (no blanks): `a.inject{|x,y|x+y}`
 
