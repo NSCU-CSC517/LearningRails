@@ -3,5 +3,5 @@ enum Country {
 }
 
 enum Type {
-	POST, PHONE
+	PHONE, POST
 }
