@@ -10,4 +10,3 @@ public class PureFabrication {
 		EventStorage.saveToDB(e3);
 	}
 }
-
