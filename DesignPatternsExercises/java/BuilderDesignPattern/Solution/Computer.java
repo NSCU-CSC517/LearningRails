@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-// public class Computer implements __________(23)__________ {
+// public class Computer implements __________(21)__________ {
 public class Computer implements ComputerPlan {
     private ArrayList<Monitor> monitorList = new ArrayList<>();
     private ArrayList<Ram> ramList = new ArrayList<>();
