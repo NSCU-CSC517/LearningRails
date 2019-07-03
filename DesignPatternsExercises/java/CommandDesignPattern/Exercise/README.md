@@ -2,7 +2,7 @@
 
 ## Description
 * Command Design Pattern is reviewed in this example and exercise.
-* It is Behavior Design Pattern.
+* It is Behavioral Design Pattern.
 * It creates objects which encapsulate actions and parameters.
 * An object is used to represent and encapsulate all the information needed to call a method at a later time
   * Information includes the method name, the object that owns the method and values for the method parameters

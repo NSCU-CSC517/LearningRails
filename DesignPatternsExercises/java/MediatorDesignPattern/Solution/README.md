@@ -2,7 +2,7 @@
 
 ## Description
 * Mediator Design Pattern is reviewed in this example and exercise.
-* It is Behavior Design Pattern.
+* It is Behavioral Design Pattern.
 * The "Gang of Four" definition:
   * "Allows loose coupling by encapsulating the way disparate sets of objects interact and communicate with each other"
 * Promotes loose coupling by avoiding the need for classes to know "too much" about other classes:

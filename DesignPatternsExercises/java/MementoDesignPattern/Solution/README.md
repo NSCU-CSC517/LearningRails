@@ -2,7 +2,7 @@
 
 ## Description
 * Memento Design Pattern is reviewed in this example and exercise.
-* It is Behavior Design Pattern.
+* It is Behavioral Design Pattern.
 * Provides a way to store previous states of an Object.
 * Provides a way to restore an object to any of its previous states.
 * It does not require multiple classes to reimplement the same method.

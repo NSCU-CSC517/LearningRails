@@ -2,7 +2,7 @@
 
 ## Description
 * Chain of Responsibility Design Pattern is reviewed in this example and exercise.
-* It is Behavior Design Pattern.
+* It is Behavioral Design Pattern.
 * Delegates commands to a chain of processing objects.
 * Promotes idea of loose coupling
 * Avoids coupling the sender of a request to its receiver by giving more than one object a chance to handle the request

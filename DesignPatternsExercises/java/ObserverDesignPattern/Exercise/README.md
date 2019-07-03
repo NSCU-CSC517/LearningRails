@@ -2,7 +2,7 @@
 
 ## Description
 * Observer Design Pattern is reviewed in this example and exercise.
-* It is Behavior Design Pattern.
+* It is Behavioral Design Pattern.
 * It is a publish/subscribe pattern which allows a number of observer objects to see an event:
   * An object, called the subject (Publisher), maintains a list of its dependents
   * Notifies them automatically of any state changes

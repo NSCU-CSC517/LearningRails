@@ -2,7 +2,7 @@
 
 ## Description
 * Strategy Design Pattern is reviewed in this example and exercise.
-* It is Behavior Design Pattern.
+* It is Behavioral Design Pattern.
 * It allows:
   * One of a family of algorithms to be selected on-the-fly at run-time
   * To eliminate code duplication
