@@ -1,4 +1,4 @@
-# Chain of Responsibility Pattern Exercise in Java
+# Chain of Responsibility Design Pattern Exercise in Java
 
 ## Description
 * Chain of Responsibility Design Pattern is reviewed in this example and exercise.
@@ -26,7 +26,7 @@ To execute the program from command line, please use the following command:
 
 ```
 javac ChainOfResponsibilityDesignPattern.java
-java ChainOfResponsibilityDesignPattern.java
+java ChainOfResponsibilityDesignPattern
 ```
 
 ## Exercise

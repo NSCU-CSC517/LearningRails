@@ -1,5 +1,3 @@
-package builderclasses;
-
 public class Monitor {
 	private int size;
 
@@ -10,5 +8,4 @@ public class Monitor {
 	public int getSize() {
 		return size;
 	}
-
 }
