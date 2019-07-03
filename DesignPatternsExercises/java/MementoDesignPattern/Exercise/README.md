@@ -43,7 +43,7 @@ java MementoDesignPattern
 * `Warehouse` is the Caretaker that contains all previous versions of the Memento.
 * `Warehouse` stores and retrieves previously stored Mementos.
 * `Memento` stores different states of `LedTV` and `Speaker` objects mirrored to `HomeTheatre`.
-* Please fill in the `____________________`  blanks to make the program run successfully to follow Observer Design
+* Please fill in the `____________________`  blanks to make the program run successfully to follow Memento Design
 Pattern.
 * Check each file for blanks.
 * Enter filled in blanks into Google Doc Exercise.
