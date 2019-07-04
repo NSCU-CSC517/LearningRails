@@ -11,7 +11,7 @@ To create exercises in the CS50 Sandbox, please follow the steps below:
 * Drag and drop ALL files from `Exercise1/` or `Exercise2/` directory
   * No need to change/modify any files
   * Keep hierarchical structure of `Exercise1/` and `Exercise2/` directory as is
-* Set distinct name for the new CS50 Sandbox (e.g. XYZ Design Pattern Java)
+* Set distinct name for the new CS50 Sandbox (e.g. Flyweight1 Design Pattern Exercise Java)
 * Get sharable link and share it with students in the corresponding Google form
 
 ## Solutions

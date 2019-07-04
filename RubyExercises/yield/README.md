@@ -10,9 +10,11 @@ To create exercise in the CS50 Sandbox, please follow the steps below:
 * Drag and drop ALL files from `exercise/` directory of the desired exercise
   * No need to change/modify any files
   * Keep hierarchical structure of `exercise/` directory as is
-* Set the name for the new CS50 Sandbox
+* Set distinct name for the new CS50 Sandbox (e.g. Yield Exercise Ruby)
 * Get sharable link and share it with students in the corresponding Google form
 
 ## Solution
 To test, view, and share solution for the exercise see content of the `solution/` directory of the corresponding
-exercise. No need to change content of the `solution/` directory.
+exercise.
+
+No need to change content of the `solution/` directory.

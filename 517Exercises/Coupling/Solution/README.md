@@ -1,4 +1,4 @@
-# High and Low Coupling Example in Java
+# High and Low Coupling Exercise in Java
 
 ## Description
 * Both High (bad) and Low (good) Coupling is reviewed in this example and exercise.
