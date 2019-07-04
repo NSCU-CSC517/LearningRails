@@ -7,23 +7,22 @@
   * New objects (instances) created by cloning (copying) other objects
 * It is closely associated with Abstract Factory.
 * It allows:
-  * Add any subclass instance of a known super class at run time
-  * Reduce memory usage
-  * Reduce runtime creating cloned objects instead of duplicate objects
-  * Reduce the need of creating subclasses
+  * Add any subclass instance of a known super class at runtime
+  * Reduce runtime complexity
+    * Creates cloned objects instead of creating duplicate objects
+  * Reduce the need for creating subclasses
   * Replace code smells such as:
     * A compound `if` that needs to be modified every time a new class is added
     * Testing the class of an object
 * It is used when:
-  * There are numerous potential classes that program needs use at runtime
+  * There are numerous potential classes that program needs to use at runtime
   * Original object is created with a resource such as a data stream that may not be available at the time that a clone
   of the object is needed
   * Original object creation involves significant time commitment
     * Reading data from a database
     * Retrieving data over a network
 * Example:
-  * Creation of N objects for testing purposes
-    * Cloned objects still need to behave as original object and have the same properties
+  * Having prototype instance of a complex object, use it to clone it and to have a copy of it.
 
 ## Run the program
 To execute the program from command line, please use the following command:
