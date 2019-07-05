@@ -22,16 +22,17 @@
   * Any time building complex object and sending messages to it to customize it:
     * Especially Cascade the messages (one sent message results in sending additional message to it).
 * Example:
-  * At ABC showroom class `Car` may have following properties:
-    * Model: Audi, BMW, Mercedes, etc.
-    * Transmission: automatic or manual
-    * Airbags: true or false
-    * Convertible: true or false
-  * Having complex Car object design builder pattern in the following way:
-    * `void setMake(String Make)  { // Set the make }`
-    * `void setTransmissionType() { // Make the system remember the transmission type }`
-    * `void setConvertible()      { // Make the system remember this is a convertible or not }`
-    * `void setWithAirbags()      { // Make the system remember this car comes with airbags or not }`
+  * Complex `Car` object:
+    * At ABC showroom class `Car` may have following properties:
+      * Model: Audi, BMW, Mercedes, etc.
+      * Transmission: automatic or manual
+      * Airbags: true or false
+      * Convertible: true or false
+    * Builder Design Pattern class should be created in the following way:
+      * `void setMake(String Make)  { // Sets make }`
+      * `void setTransmissionType() { // Sets transmission type }`
+      * `void setConvertible()      { // Sets boolean }`
+      * `void setWithAirbags()      { // Sets boolean }`
 
 ## Run the program
 To execute the program from command line, please use the following command:
@@ -42,16 +43,20 @@ java BuilderDesignPattern
 ```
 
 ## Exercise
-* In this example, complex `Computer` object is created with help of `ComputerEngineer` and `ComputerBuilder`, but
-incomplete.
+* In this example, Builder Design Pattern is created, but incomplete.
+* Complex `Computer` object is created with help of `ComputerEngineer` and `ComputerBuilder`.
 * It utilizes `ComputerEngineer` object to create `ComputerBuilder`, which creates `Computer` object.
-* `ComputerBuilder` class is used to build complex computer system with multiple HW components added to it.
+* `ComputerBuilder` class is used to build complex computer system with varies HW components of unlimited quantities
+added to it.
 * Computer may or may not have the following HW properties:
   * Multiple monitors
   * Multiple RAMs
   * Multiple HDDs
   * Different type of Mouse
-  * etc
+* Once `ComputerEngineer` creates new `ComputerBuilder` object, program utilizes by start adding multiple HW components
+into by calling `add` methods on the `Computer` object.
+* Once `add` is triggered in `Computer` class, it stores HW components into corresponding list of HW components.
+* To retrieve all these HW components, computer lists of HW are invoked directly from the client.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Builder Design
 Pattern.
 * Check each file for blanks.
@@ -68,12 +73,12 @@ List of Monitors:
     28 inches
 List of RAMs:
     256 MB
-Total Ram Capacity = 256 MB
+Total Ram Capacity: 256 MB
 List of HDDs:
     64 GB
     512 GB
     1024 GB
     2048 GB
-Total HDD Capacity = 3648 GB
-Computer Mouse Type = Optical
+Total HDD Capacity: 3648 GB
+Computer Mouse Type: Optical
 ```
