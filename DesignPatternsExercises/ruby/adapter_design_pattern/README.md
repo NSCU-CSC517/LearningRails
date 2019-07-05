@@ -1,4 +1,4 @@
-# Abstract Factory Design Pattern
+# Adapter Design Pattern
 
 ## Exercise
 To share exercise with students, provide them with content of the `exercise/` directory.
@@ -8,7 +8,7 @@ To create exercise in the CS50 Sandbox, please follow the steps below:
 * Drag and drop ALL files from `exercise/` directory
   * No need to change/modify any files
   * Keep hierarchical structure of `exercise/` directory as is
-* Set distinct name for the new CS50 Sandbox (e.g. Abstract Factory Design Pattern Exercise Ruby)
+* Set distinct name for the new CS50 Sandbox (e.g. Adapter Design Pattern Exercise Ruby)
 * Get sharable link and share it with students in the corresponding Google form
 
 ## Solution
