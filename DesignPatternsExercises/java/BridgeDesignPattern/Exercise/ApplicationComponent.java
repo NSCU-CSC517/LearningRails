@@ -1,3 +1,3 @@
-public interface ApplicationComponent {
-	void setTheme(Theme theme);
+interface ApplicationComponent {
+    void __________(1)__________(Theme theme);
 }
