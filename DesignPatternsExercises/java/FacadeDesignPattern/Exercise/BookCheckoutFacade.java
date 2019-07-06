@@ -1,18 +1,18 @@
 public class BookCheckoutFacade {
 
 	private int studentId;
-	StudentAccountCheck acctCheck;
-	BookAvailablityCheck bookCheck;
+	private StudentAccountVerification studentAccountVerification;
+	private BookAvailability bookAvailability;
 
 	public BookCheckoutFacade(int studentId) {
 		this.studentId = studentId;
-		acctCheck = __________(1)__________;
-		bookCheck = __________(2)__________;
+		studentAccountVerification = __________(3)__________;
+		bookAvailability = __________(4)__________;
 	}
 
-	public void __________(3)__________(String book) {
-		if(acctCheck.isStudentIdValid(studentId) && bookCheck.isBookAvailable(book)) {
-			__________(4)__________;
+	public void __________(5)__________(String book) {
+		if(studentAccountVerification.isStudentIdValid(studentId) && bookAvailability.isBookAvailable(book)) {
+			bookAvailability.__________(6)__________(book);
 		}
 	}
 }
