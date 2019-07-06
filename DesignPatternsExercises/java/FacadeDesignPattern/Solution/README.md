@@ -30,7 +30,7 @@ in its own constructor:
   * `BookAvailability` object is responsible for maintaining book list and verification of books
   * `StudentAccountVerification` object is responsible for validating student ID
 * If client/student wants to checkout a book, it calls `issueBook()` method of `BookCheckoutFacade` instance:
-* `BookCheckoutFacade` is responsible for calling appropriate validations prior the book checkout
+  * Responsible for calling appropriate validations prior the book checkout
 * Please fill-in the '____________________'  blanks to make the program run successfully to follow Facade Design
 Pattern.
 * Check each file for blanks.
@@ -42,10 +42,12 @@ Upon executing the program, you should see the following output (assuming all th
 
 ```
 Student ID: 2001 and Book: Java - The Complete Reference
-The Book is available
+Java - The Complete Reference is available
 You have 2 days to return it
+
 Student ID: 2002 and Book: Java - The Complete Reference
-Sorry, the book is not available
+Sorry, Java - The Complete Reference is not available
+
 Student ID: 1 and Book: Design of Wood Structures
 Student ID is invalid
 ```
