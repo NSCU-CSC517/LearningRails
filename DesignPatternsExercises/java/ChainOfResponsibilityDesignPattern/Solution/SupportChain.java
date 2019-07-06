@@ -1,11 +1,12 @@
+// public __________(4)__________ class __________(5)__________ {
 public abstract class SupportChain {
-	// protected __________(3)__________ nextSupportLink;
 	protected SupportChain nextSupportLink;
 
+	// public void __________(6)__________(SupportChain nextSupportLink) {
 	public void setNext(SupportChain nextSupportLink) {
 		this.nextSupportLink = nextSupportLink;
 	}
 
-	// public __________(4)__________ void __________(5)__________(IssueType issueType);
+	// public __________(7)__________ void __________(8)__________(IssueType issueType);
 	public abstract void handleIssue(IssueType issueType);
 }

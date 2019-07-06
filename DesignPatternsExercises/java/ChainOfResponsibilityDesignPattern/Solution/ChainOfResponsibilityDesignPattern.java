@@ -6,9 +6,7 @@ public class ChainOfResponsibilityDesignPattern {
 		SupportChain configurationSupport = new ConfigurationSupport();
 		SupportChain productionSupport = new ProductionSupport();
 
-		// generalSupport.__________(1)__________(configurationSupport);
 		generalSupport.setNext(configurationSupport);
-		// configurationSupport.__________(2)__________(productionSupport);
 		configurationSupport.setNext(productionSupport);
 
 		generalSupport.handleIssue(IssueType.Production);
