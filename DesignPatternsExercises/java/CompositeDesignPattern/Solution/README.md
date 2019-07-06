@@ -13,7 +13,7 @@
     * Maximizes complexity while also remaining dynamic
 * It is used when:
   * Structure data into its individual parts as well as represent the inner workings of every part of a larger object
-  * Utilize both single object and a group of objects in same way (uniformly).
+  * Utilize both single object and a group of objects in same way (uniformly)
 * Examples:
   * Individuals are treated as group of people:
     * Contact list contains individual people as well as groups of people, such as families or relatives:
@@ -36,11 +36,11 @@ java CompositeDesignPattern
 ```
 
 ## Exercise
-* In this example, Composite Design Pattern is used to treat individual block in the same way as a structures of
-individual blocks.
-* Each structure has a list of children, which consists of either:
+* In this example, Composite Design Pattern is used to treat individual blocks the same as tree-like structures
+consisting of individual blocks.
+* Each tree-like structure has its own children maintained in the list and it consists of either:
   * Individual blocks
-  * Other Structure that has its own list of children
+  * Other tree-like structure that has its own list of children (similar to parent)
 * Please fill-in the '____________________'  blanks to make the program run successfully to follow Composite Design
 Pattern.
 * Check each file for blanks.
@@ -51,13 +51,13 @@ Pattern.
 Upon executing the program, you should see the following output (assuming all the blanks are filled in correctly):
 
 ```
-Assembling "1" structure using its list of child Group objects
-Assembling "2" structure using its list of child Group objects
-Adding a block with dimensions 1 x 2
-Adding a block with dimensions 3 x 4
-Created "2" structure from its list of child Group objects
-Assembling "3" structure using its list of child Group objects
-Adding a block with dimensions 5 x 6
-Created "3" structure from its list of child Group objects
-Created "1" structure from its list of child Group objects
+Assembling "parent" structure using its list of child Group objects
+Assembling "child1" structure using its list of child Group objects
+    Adding a block with dimensions 1 x 2
+    Adding a block with dimensions 3 x 4
+Created "child1" structure from its list of child Group objects
+Assembling "child2" structure using its list of child Group objects
+    Adding a block with dimensions 5 x 6
+Created "child2" structure from its list of child Group objects
+Created "parent" structure from its list of child Group objects
 ```

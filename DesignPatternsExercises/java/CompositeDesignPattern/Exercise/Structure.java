@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Structure implements Group {
 	private String name;
-	private List<Group> groupList = new ArrayList<Group>();
+	private List<Group> groupList = new ArrayList<>();
 
 	public Structure(String name) {
 		this.name = name;
@@ -13,11 +13,11 @@ public class Structure implements Group {
 	public void assemble() {
 		System.out.println("Assembling \"" + name + "\" structure using its list of child Group objects");
 		for(Group group : groupList)
-			group.__________(3)__________();
+			group.__________(4)__________();
 		System.out.println("Created \"" + name + "\" structure from its list of child Group objects");
 	}
 
-	public void __________(4)__________(Group group) {
+	public void __________(5)__________(Group group) {
 		groupList.add(group);
 	}
 

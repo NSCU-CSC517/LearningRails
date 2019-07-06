@@ -8,8 +8,7 @@ public class Block implements Group {
 	}
 
 	@Override
-	// public void __________(5)__________() {
     public void assemble() {
-        System.out.println("Adding a block with dimensions " + this.width + " x " + this.length);
+        System.out.println("    Adding a block with dimensions " + this.width + " x " + this.length);
     }
 }
