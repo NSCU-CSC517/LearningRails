@@ -1,6 +1,10 @@
-# class __________(6)__________
 class PostCode
-  def is_valid_post_code
-    raise 'Must be implemented by subclass'
+  # def __________(7)__________(post_code)
+  def initialize(post_code)
+    valid_post_code?(post_code) ? (@post_code = post_code) : (raise 'Invalid UK post code')
+  end
+
+  def valid_post_code?(post_code)
+    raise NotImplementedError, 'Subclass must override this method'
   end
 end

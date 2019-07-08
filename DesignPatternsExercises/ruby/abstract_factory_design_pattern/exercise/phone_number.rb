@@ -1,5 +1,9 @@
 class PhoneNumber
-  def is_valid_phone_number
-    raise 'Must be implemented by subclass'
+  def __________(3)__________(phone_number)
+    valid_phone_number?(phone_number) ? (@phone_number = phone_number) : (raise 'Invalid UK phone number')
+  end
+
+  def valid_phone_number?(phone_number)
+    raise NotImplementedError, 'Subclass must override this method'
   end
 end

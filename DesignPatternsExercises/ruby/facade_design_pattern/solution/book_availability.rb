@@ -7,7 +7,7 @@ class BookAvailability
   end
 
   def book_available?(book)
-    if @@book_map.include? book and @@book_map[book] > 0
+    if (@@book_map.include? book) && (@@book_map[book] > 0)
       puts "#{book} is available"
       true
     else

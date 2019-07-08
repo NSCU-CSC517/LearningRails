@@ -1,5 +1,5 @@
 class Extractor
   def extract
-    raise NotImplementedError, 'Ask the subclass'
+    raise NotImplementedError, 'Subclass must override this method'
   end
 end

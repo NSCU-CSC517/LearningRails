@@ -1,14 +1,9 @@
 require_relative 'computer_plan'
 
 class Computer < ComputerPlan
-  # attr_reader __________(1)__________, :ram_list, :hdd_list, :mouse
-  attr_reader :monitor_list, :ram_list, :hdd_list, :mouse
-
-  # def __________(2)__________
+  # def __________(1)__________
   def initialize
-    @monitor_list = []
-    @ram_list = []
-    @hdd_list = []
+    super
   end
 
   def add_monitor(monitor)

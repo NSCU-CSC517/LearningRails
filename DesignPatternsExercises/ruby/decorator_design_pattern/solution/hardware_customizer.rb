@@ -1,17 +1,17 @@
 require_relative 'computer.rb'
 
 class HardwareCustomizer < Computer
+  # def __________(4)__________(new_comp)
   def initialize(new_comp)
-    # __________(1)__________
-    @temp_comp = new_comp
+    @computer = new_comp
   end
 
   def parts
-    # __________(2)__________
-    @temp_comp.parts
+    # __________(5)__________
+    @computer.parts
   end
 
   def cost
-    @temp_comp.cost
+    @computer.cost
   end
 end

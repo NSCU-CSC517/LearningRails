@@ -2,16 +2,12 @@ require_relative 'extraction'
 require_relative 'db_extractor'
 
 class DBExtraction < Extraction
-
-  attr_accessor :file
-
   def initialize(file)
-    @file = file
+    super(file)
   end
 
   def call_correct_extraction
     # __________(7)__________
     DBExtractor.new.extract
   end
-
 end

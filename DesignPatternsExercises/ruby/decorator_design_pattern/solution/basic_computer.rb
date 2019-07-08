@@ -1,6 +1,7 @@
 require_relative 'computer.rb'
 
 class BasicComputer < Computer
+  # def __________(1)__________
   def initialize
     @ram = 256
     @rom = 4
