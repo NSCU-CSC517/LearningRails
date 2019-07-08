@@ -1,21 +1,22 @@
 public class USPostCode implements PostCode {
     private String postalCode;
 
-	public USPostCode(String postalCode) {
-    	// if(!__________(7)__________(postalCode)) {
-    	if(!isValidPostalCode(postalCode)) {
-    		throw new IllegalArgumentException("Invalid postcode");
-    	}
-    	this.postalCode = postalCode;
+    public USPostCode(String postalCode) {
+        // if (!__________(8)__________(postalCode)) {
+        if (!isValidPostalCode(postalCode)) {
+            throw new IllegalArgumentException("Invalid postcode");
+        }
+        this.postalCode = postalCode;
+        System.out.println("Creating instance of USPostCode:");
     }
 
-	@Override
-	public boolean isValidPostalCode(String postalCode) { //> 6
-		return postalCode.matches("^[0-9]{5}(?:-[0-9]{4})?$");
-	}
+    @Override
+    public boolean isValidPostalCode(String postalCode) { //> 6
+        return postalCode.matches("^[0-9]{5}(?:-[0-9]{4})?$");
+    }
 
-	@Override
-	public String getPostalCode() {
-		return  postalCode;
-	}
+    @Override
+    public String getPostalCode() {
+        return postalCode;
+    }
 }

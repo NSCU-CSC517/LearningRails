@@ -22,30 +22,37 @@
   * While in the Abstract Factory a class gives the responsibility to instantiate an object to another object via
   composition
 * Examples:
-  * 3D printer will be fabricating a dozen different kinds of devices. The code needs to be set up so that a device
-  will be constructed when the program calls a single method, and passes a single parameter, which identifies the type
-  of device to be constructed.
+  * 3D printer will be fabricating a dozen different kinds of devices:
+    * The code needs to be set up so that a device will be constructed when the program calls a single method, and
+    passes a single parameter, which identifies the type of device to be constructed
 
 ## Run the program
 To execute the program from command line, please use the following commands:
 ```
-javac FactoryClient.java
-java FactoryClient
+javac FactoryMethodDesignPattern.java
+java FactoryMethodDesignPattern
 ```
 
 ## Exercise
-* In this example, factory method for validation of post code is created, but incomplete.
+* In this example, Factory Method Design Pattern is created, but incomplete.
+* It is used for constructing varies `PostCode` objects based on the given property.
+* It may create an object only if validation of the given post code is successful:
+  * Each class that implements `PostCode` overrides validation of post code in its own way, since it varies based on the
+  country
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Factory Method Design
 Pattern.
 * Check each file for blanks.
 * Enter missing statements (blanks) into Google Doc Exercise.
-* Start with `FactoryClient.java` file.
+* Start with `FactoryMethodDesignPattern.java` file.
 
 ## Expected Output
 Upon executing the program, you should see the following output:
 
 ```
+Creating instance of USPostCode:
 27606
+Creating instance of INPostCode:
 576222
+Creating instance of UKPostCode:
 SW15 5PU
 ```
