@@ -58,5 +58,5 @@ Country: England -- Area: 300 -- Population: 3000
 Set of Countries:
 Country: Japan -- Area: 700 -- Population: 7000
 Country: Russia -- Area: 800 -- Population: 8000
-Country: United States -- Area: 900 -- Population: 9000
+Country: US -- Area: 900 -- Population: 9000
 ```

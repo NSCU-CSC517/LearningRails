@@ -5,8 +5,8 @@ class CountryArray
   attr_reader :country_array
 
   def initialize
-    @country_array = [Country.new('Australia', 100,  1000),
-                      Country.new('Chine', 200, 2000),
-                      Country.new('England', 300, 3000)]
+    @country_array = [Country.new(:Australia, 100, 1000),
+                      Country.new(:Chine, 200, 2000),
+                      Country.new(:England, 300, 3000)]
   end
 end
