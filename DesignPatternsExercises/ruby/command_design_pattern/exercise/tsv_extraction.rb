@@ -2,15 +2,11 @@ require_relative 'extraction'
 require_relative 'tsv_extractor'
 
 class TSVExtraction < Extraction
-
-  attr_accessor :file
-
   def initialize(file)
-    @file = file
+    super(file)
   end
 
   def call_correct_extraction
-    __________(8)__________
+    __________(9)__________
   end
-
 end

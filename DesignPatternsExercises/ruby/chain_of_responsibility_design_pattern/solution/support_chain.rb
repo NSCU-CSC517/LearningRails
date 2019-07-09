@@ -5,4 +5,8 @@ class SupportChain
     # __________(6)__________ = chain
     @next_support_link = chain
   end
+
+  def handle_issue(issue_type)
+    raise NotImplementedError, 'Subclass must override this method'
+  end
 end

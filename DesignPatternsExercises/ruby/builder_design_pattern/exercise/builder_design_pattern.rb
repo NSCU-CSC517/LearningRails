@@ -4,7 +4,7 @@ computer_engineer = ComputerEngineer.new
 
 computer = computer_engineer.make_computer
 computer_builder = computer_engineer.computer_builder
-computer_builder.add_hard_disk(64).add_ram(256).add_monitor(17).add_monitor(28).add_hard_disk(512).add_hard_disk(1024).add_hard_disk(2048).add_mouse("Optical")
+computer_builder.add_hard_disk(64).add_ram(256).add_monitor(17).add_monitor(28).add_hard_disk(512).add_hard_disk(1024).add_hard_disk(2048).add_mouse('Optical')
 
 puts 'Computer is assembled and with the following parts.'
 puts 'List of Monitors:'
@@ -20,5 +20,4 @@ computer.hdd_list.each { |hdd| puts "    #{hdd.capacity} GB" }
 
 puts "Total HDD Capacity: #{computer.hdd_capacity} GB"
 
-puts 'Computer Mouse Type: NONE' unless computer.mouse
-puts "Computer Mouse Type: #{computer.mouse.type}" if computer.mouse
+computer.mouse ? (puts "Computer Mouse Type: #{computer.mouse.type}") : (puts 'Computer Mouse Type: NONE')

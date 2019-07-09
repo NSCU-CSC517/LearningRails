@@ -1,9 +1,9 @@
 class Computer
   def parts
-    raise NotImplementedError.new('Implement this method in a subclass')
+    raise NotImplementedError, 'Subclass must override this method'
   end
 
   def cost
-    raise NotImplementedError.new('Implement this method in a subclass')
+    raise NotImplementedError, 'Subclass must override this method'
   end
 end

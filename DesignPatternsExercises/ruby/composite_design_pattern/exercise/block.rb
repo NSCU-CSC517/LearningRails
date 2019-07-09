@@ -1,9 +1,8 @@
 require_relative 'group'
 
 class Block < Group
-  def __________(2)__________(width, length)
-    @width = width
-    @length = length
+  def initialize(width, length)
+    super(width, length)
   end
 
   def assemble

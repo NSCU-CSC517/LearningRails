@@ -27,7 +27,7 @@ changes as per Command Design Pattern.
 To execute the program from command line, please use the following command:
 
 ```
-ruby command_pattern.rb
+ruby command_design_pattern.rb
 ```
 
 ## Exercise
@@ -39,7 +39,7 @@ Pattern.
 * To match the "correct" answers, if some method takes a file parameter, name the parameter a.csv, b.xx, c.xx, etc.,
 where "xx" is the correct file extension.
 * The correct extraction algorithm needs to be called in a way that reflects use of the Command Design Pattern.
-* Start with `command_pattern.rb` file.
+* Start with `command_design_pattern.rb` file.
 * Hint: Extraction interface is analogous to command interface and subsequent concrete classes are analogous to concrete
  command.
 
