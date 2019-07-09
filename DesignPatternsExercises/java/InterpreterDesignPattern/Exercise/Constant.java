@@ -1,5 +1,5 @@
-public class Constant implements Expression {
-    private String constant;
+public class Constant implements __________(1)__________ {
+    private final String constant;
 
     public Constant(String constant) {
         this.constant = constant;
@@ -7,6 +7,6 @@ public class Constant implements Expression {
 
     @Override
     public int interpret() {
-        return __________(1)__________.parseInt(constant);
+        return __________(2)__________.parseInt(constant);
     }
 }

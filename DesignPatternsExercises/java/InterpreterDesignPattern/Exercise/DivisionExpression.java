@@ -1,14 +1,10 @@
-public class DivisionExpression implements Expression {
-    private Expression firstConstant;
-    private Expression secondConstant;
-
-    public DivisionExpression(Expression firstConstant, Expression secondConstant) {
-        this.firstConstant = firstConstant;
-        this.secondConstant = secondConstant;
+public class DivisionExpression extends Expression {
+    public DivisionExpression(Constant firstConstant, Constant secondConstant) {
+        __________(3)__________;
     }
 
     @Override
     public int interpret() {
-        return firstConstant.interpret() __________(2)__________ secondConstant.interpret();
+        return firstConstant.interpret() __________(4)__________ secondConstant.interpret();
     }
 }

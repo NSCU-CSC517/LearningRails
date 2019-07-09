@@ -1,14 +1,11 @@
-public class SubtractionExpression implements Expression {
-    private Expression firstConstant;
-    private Expression secondConstant;
+public class SubtractionExpression extends Expression {
 
-    public SubtractionExpression(Expression firstConstant, Expression secondConstant) {
-        this.firstConstant = firstConstant;
-        this.secondConstant = secondConstant;
+    public SubtractionExpression(Constant firstConstant, Constant secondConstant) {
+        __________(16)__________;
     }
 
     @Override
     public int interpret() {
-        return firstConstant.interpret() __________(10)__________ secondConstant.interpret();
+        return firstConstant.interpret() __________(17)__________ secondConstant.interpret();
     }
 }

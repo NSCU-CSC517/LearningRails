@@ -1,15 +1,13 @@
-public class SummationExpression implements Expression {
-    private Expression firstConstant;
-    private Expression secondConstant;
+public class SummationExpression extends Expression {
 
-    public SummationExpression(Expression firstConstant, Expression secondConstant) {
-        this.firstConstant = firstConstant;
-        this.secondConstant = secondConstant;
+    public SummationExpression(Constant firstConstant, Constant secondConstant) {
+        // __________(18)__________;
+        super(firstConstant, secondConstant);
     }
 
     @Override
 	public int interpret() {
-        // return firstConstant.interpret() __________(11)__________ secondConstant.interpret();
+        // return firstConstant.interpret() __________(19)__________ secondConstant.interpret();
 		return firstConstant.interpret() + secondConstant.interpret();
 	}
 }

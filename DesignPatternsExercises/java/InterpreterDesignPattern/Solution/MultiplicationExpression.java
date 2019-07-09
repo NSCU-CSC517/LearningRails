@@ -1,15 +1,13 @@
-public class MultiplicationExpression implements Expression {
-    private Expression firstConstant;
-    private Expression secondConstant;
+public class MultiplicationExpression extends Expression {
 
-    public MultiplicationExpression(Expression firstConstant, Expression secondConstant) {
-        this.firstConstant = firstConstant;
-        this.secondConstant = secondConstant;
+    public MultiplicationExpression(Constant firstConstant, Constant secondConstant) {
+        // __________(12)__________;
+        super(firstConstant, secondConstant);
     }
 
     @Override
     public int interpret() {
-        // return firstConstant.interpret() __________(9)__________ secondConstant.interpret();
+        // return firstConstant.interpret() __________(13)__________ secondConstant.interpret();
         return firstConstant.interpret() * secondConstant.interpret();
     }
 }

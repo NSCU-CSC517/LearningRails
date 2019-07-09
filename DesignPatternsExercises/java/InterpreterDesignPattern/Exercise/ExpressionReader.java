@@ -1,22 +1,17 @@
 public class ExpressionReader {
-	public Expression read(String expression) {
-		try {
-			String[] expressionToken = expression.split("\\s+");
-			Constant firstConstant = new Constant(expressionToken[Expression.FIRST_CONSTANT_INDEX]);
-			Constant secondConstant = new Constant(expressionToken[Expression.SECOND_CONSTANT_INDEX]);
+	public __________(7)__________ Expression read(String expression) {
+		String[] expressionToken = expression.split("\\s+");
+		Constant firstConstant = new Constant(expressionToken[Statement.FIRST_CONSTANT_INDEX]);
+		Constant secondConstant = new Constant(expressionToken[Statement.SECOND_CONSTANT_INDEX]);
 
-			if (expression.contains(Expression.SUMMATION_OPERATOR))
-				return new __________(5)__________(firstConstant, secondConstant);
-			else if (expression.contains(Expression.SUBTRACTION_OPERATOR))
-				return new __________(6)__________(firstConstant, secondConstant);
-			else if (expression.contains(Expression.MULTIPLICATION_OPERATOR))
-				return new __________(7)__________(firstConstant, secondConstant);
-			else if (expression.contains(Expression.DIVISION_OPERATOR))
-				return new __________(8)__________(firstConstant, secondConstant);
-			return null;
-		} catch (Exception exception) {
-			System.out.println(exception);
-			return null;
-		}
+		if (expression.contains(Statement.SUMMATION_OPERATOR))
+			return new __________(8)__________(firstConstant, secondConstant);
+		else if (expression.contains(Statement.SUBTRACTION_OPERATOR))
+			return new __________(9)__________(firstConstant, secondConstant);
+		else if (expression.contains(Statement.MULTIPLICATION_OPERATOR))
+			return new __________(10)__________(firstConstant, secondConstant);
+		else if (expression.contains(Statement.DIVISION_OPERATOR))
+			return new __________(11)__________(firstConstant, secondConstant);
+		return null;
 	}
 }

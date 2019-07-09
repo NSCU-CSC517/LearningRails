@@ -1,12 +1,10 @@
-// interface __________(3)__________ {
-interface Expression {
-	// int __________(4)__________();
-	int interpret();
+// public __________(5)__________ class Expression implements __________(6)__________ {
+public abstract class Expression implements Statement {
+	protected Constant firstConstant;
+	protected Constant secondConstant;
 
-	int FIRST_CONSTANT_INDEX = 0;
-	int SECOND_CONSTANT_INDEX = 2;
-	String SUMMATION_OPERATOR = "+";
-	String SUBTRACTION_OPERATOR = "-";
-	String MULTIPLICATION_OPERATOR = "*";
-	String DIVISION_OPERATOR = "/";
+	public Expression(Constant firstConstant, Constant secondConstant) {
+		this.firstConstant = firstConstant;
+		this.secondConstant = secondConstant;
+	}
 }

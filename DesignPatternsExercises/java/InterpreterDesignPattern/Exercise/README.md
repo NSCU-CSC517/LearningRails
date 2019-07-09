@@ -28,20 +28,25 @@ java InterpreterDesignPattern
 ```
 
 ## Exercise
-* In this example, Interpreter is created to interpret strings representing mathematical expressions and provide correct
-answer to the user.
-* `Expression` is an interface which represents abstract expression class:
-  * It contains `interpret()` method which each of the concrete expression class' must implement
-* Program has four composite expressions, meaning that each needs additional expression to perform its own
-interpretation:
+* In this example, Interpreter Design Pattern is created to interpret strings representing mathematical expressions and
+provide correct answer on these mathematical expressions to the user.
+* `Statement` is an interface which represents any mathematical statement and which is implemented by an abstract
+`Expression` class and `Constant` class:
+  * It has `interpret()` method that interprets:
+    * Mathematical expressions for a two given constants and operator, and provides an answer for it, or
+    * String representing constant into integer required for interpreting expression
+* `Expression` is an abstract class that implements `Statement` interface:
+  * Each of its subclasses extend it and override `interpret()` method
+* Program has four composite expressions (e.g. subclasses of `Expression` abstract class), meaning that each needs to
+interpret required statements embedded within a given string to perform its own interpretation:
   * `SummationExpression`
   * `SubtractionExpression`
   * `MultiplicationExpression`
   * `DivisionExpression`
-* In this case, `Constant` is that additional expression:
-  * It is terminal expression
-  * It takes in the constant string as an argument and returns its equivalent constant
-* The Interpreter Design Pattern in this example is incomplete.
+* In this example, `Constant` objects are these required statements:
+  * It implements `Statement` interface and thus, overrides `interpret()` method:
+    * It takes in as an argument a string representing constant and returns its equivalent integer constant
+* The Interpreter Design Pattern in this example is created, but incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Interpreter Design
 Pattern.
 * Check each file for blanks.
