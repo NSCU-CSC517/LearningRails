@@ -33,13 +33,16 @@ java IteratorDesignPattern
 ```
 
 ## Exercise
-* In this example, three (3) different collections of `Country` objects are used:
+* In this example, Iterator Design Pattern is created to iterate through varies data structures, but treat them all in
+the same way as iterable collection of objects and print their data.
+* There are three (3) different collections of `Country` objects are used:
   * `Array`
   * `List`
   * `HashSet`
-* They share common interface.
-* `Iterator` can be accessed for each one of them.
-* They can be treated the same way and print some data.
+* They share common `CountryIterable` interface.
+* `Iterator` can be created/accessed for each one of them.
+* They can be treated in the same way as iterabel collection of objects.
+* This exercise is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Iterator Design
 Pattern.
 * Check each file for blanks.
@@ -50,17 +53,18 @@ Pattern.
 Upon executing the program, you should see the following output (assuming blanks are filled in correctly):
 
 ```
-Country: India Area: 120 Population: 1252
-Country: China Area: 370 Population: 1357
-Country: United States Area: 380 Population: 316
-
 Array of Countries:
-Country: Australia Area: 297 Population: 23
-Country: Germany Area: 14 Population: 81
-Country: France Area: 25 Population: 66
+Country: Australia -- Area: 100 -- Population: 1000
+Country: China -- Area: 200 -- Population: 2000
+Country: England -- Area: 300 -- Population: 3000
 
 List of Countries:
-Country: Russia Area: 660 Population: 143
-Country: Japan Area: 14 Population: 127
-Country: England Area: 5 Population: 53
+Country: France -- Area: 400 -- Population: 4000
+Country: Germany -- Area: 500 -- Population: 5000
+Country: India -- Area: 600 -- Population: 6000
+
+Set of Countries:
+Country: Japan -- Area: 700 -- Population: 7000
+Country: United States -- Area: 900 -- Population: 9000
+Country: Russia -- Area: 800 -- Population: 8000
 ```

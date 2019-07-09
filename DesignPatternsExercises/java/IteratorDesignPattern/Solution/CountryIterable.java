@@ -1,7 +1,7 @@
 import java.util.Iterator;
 
-// interface __________(4)__________ {
+// interface __________(5)__________ {
 interface CountryIterable {
-	// Iterator __________(5)__________();
-	Iterator getIterator();
+    // Iterator __________(6)__________();
+    Iterator getIterator();
 }

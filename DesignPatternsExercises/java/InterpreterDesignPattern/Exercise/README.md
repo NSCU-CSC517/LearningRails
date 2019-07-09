@@ -18,7 +18,6 @@
     * Feet into meters
     * Gallons into liters
 
-
 ## Run the program
 To execute the program from command line, please use the following command:
 
