@@ -33,7 +33,7 @@ java IteratorDesignPattern
 ```
 
 ## Exercise
-* In this example, Iterator Design Pattern is created to iterate through varies data structures, but treat them all in
+* In this example, Iterator Design Pattern is created to iterate through varies data structures, but treats them all in
 the same way as iterable collection of objects and print their data.
 * There are three (3) different collections of `Country` objects are used:
   * `Array`
@@ -41,7 +41,7 @@ the same way as iterable collection of objects and print their data.
   * `HashSet`
 * They share common `CountryIterable` interface.
 * `Iterator` can be created/accessed for each one of them.
-* They can be treated in the same way as iterabel collection of objects.
+* They can be treated in the same way as iterable collection of objects.
 * This exercise is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Iterator Design
 Pattern.
