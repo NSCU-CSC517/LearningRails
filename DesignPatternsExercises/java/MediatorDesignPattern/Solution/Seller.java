@@ -7,7 +7,7 @@ public class Seller {
 		this.name = name;
 		this.currency = currency;
 		this.sellingPrice = sellingPrice;
-		// __________(6)__________.addSeller(this);
+		// mediator.__________(6)__________;
 		mediator.addSeller(this);
 	}
 

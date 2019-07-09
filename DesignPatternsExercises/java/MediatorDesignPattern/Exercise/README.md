@@ -32,12 +32,16 @@ java MediatorDesignPattern
 
 ## Exercise
 * In this example, `Mediator` class is acting as a mediator between `Seller` and `Buyer` objects for currency exchange.
-* Note that buyer contacts seller through the mediator, not in any other way.
-* Flow of any transaction:
-  * Buyer shows interest in buying some amount of currency to the mediator
-  * Mediator checks if any seller with the desired currency is selling equal or less than the price buyer has proposed
-  * If there is such seller, it sends bid acceptance message to buyer
+* Note that any buyer-seller interaction occurs strictly through the mediator:
+  * No direct interaction
+* Flow of any transaction or currency exchange:
+  * Buyer inquiries mediator with purchasing request of N amount specific currency (USD, EUR, etc)
+  * Mediator inquiries sellers whether there are any sellers with the desired currency and selling price
+  * If there is at least one such seller:
+    * Mediator sends bid acceptance message to buyer
+    * Mediator completes transaction
 * All the currency rates and conversion is handled by the `CurrencyCoverter` class.
+* This exercise is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Mediator Design
 Pattern.
 * Check each file for blanks.
@@ -58,4 +62,7 @@ Seller gbpSeller1 rejects the bid of USD 99.07198
 Buyer is attempting a bid of INR 20000.0
 Seller inrSeller1 rejects the bid of USD 309.88535
 Seller inrSeller2 rejects the bid of USD 309.88535
+
+Buyer is attempting a bid of RUS 1.0
+Seller is not found for 1.0 RUS
 ```

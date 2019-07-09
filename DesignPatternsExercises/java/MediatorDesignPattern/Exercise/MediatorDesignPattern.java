@@ -12,7 +12,10 @@ public class MediatorDesignPattern {
 		System.out.println();
 		gbpBuyer.attemptToPurchase(79);
 		System.out.println();
-		Buyer rsBuyer = new Buyer(mediator, "INR");
-		rsBuyer.attemptToPurchase(20000);
+		Buyer inrBuyer = new Buyer(mediator, "INR");
+		inrBuyer.attemptToPurchase(20000);
+		System.out.println();
+		Buyer rusBuyer = new Buyer(mediator, "RUS");
+		rusBuyer.attemptToPurchase(1);
 	}
 }
