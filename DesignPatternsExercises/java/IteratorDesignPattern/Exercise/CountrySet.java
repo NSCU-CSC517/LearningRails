@@ -3,7 +3,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 public class CountrySet __________(9)__________ CountryIterable {
-    Set<Country> countrySet = new HashSet<>();
+    private Set<Country> countrySet = new HashSet<>();
 
     public CountrySet() {
         countrySet.add(new Country("Japan", 700, 7000));
