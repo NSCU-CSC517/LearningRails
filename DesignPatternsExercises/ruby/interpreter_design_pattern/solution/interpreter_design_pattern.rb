@@ -18,7 +18,7 @@ expression = ExpressionReader.read(expression_string)
 puts "#{expression_string} = #{expression.interpret}"
 
 expression_string = '5 * 5'
-expression = ExpressionReader.read(expression_string);
+expression = ExpressionReader.read(expression_string)
 puts "#{expression_string} = #{expression.interpret}"
 
 expression_string = '9 / 3'
