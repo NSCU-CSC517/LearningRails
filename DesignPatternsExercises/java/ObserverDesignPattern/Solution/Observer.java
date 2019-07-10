@@ -1,13 +1,13 @@
-// public __________(9)__________ class Observer {
+// public __________(7)__________ class Observer {
 public abstract class Observer {
-	BreakingNewsFeed breakingNewsFeed;
+    protected BreakingNewsFeed breakingNewsFeed;
 
-	public Observer(BreakingNewsFeed breakingNewsFeed) {
-		this.breakingNewsFeed = breakingNewsFeed;
-		// breakingNewsFeed.__________(10)__________;
-		breakingNewsFeed.subscribe(this);
-	}
+    public Observer(BreakingNewsFeed breakingNewsFeed) {
+        this.breakingNewsFeed = breakingNewsFeed;
+        // breakingNewsFeed.__________(8)__________;
+        breakingNewsFeed.subscribe(this);
+    }
 
-	// public abstract void __________(11)__________();
-	public abstract void sendNotification();
+    // public __________(9)__________ void __________(10)__________();
+    public abstract void sendNotification();
 }

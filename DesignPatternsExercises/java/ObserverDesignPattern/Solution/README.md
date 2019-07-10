@@ -48,9 +48,11 @@ java ObserverDesignPattern
 
 ## Exercise
 * In this example, `BreakingNewsFeed` allows varies cable news companies (e.g. CNN, Fox, NBC, and etc) to subscribe for
-any news alerts
-* When there is a breaking news is set in the `BreakingNewsFeed`, it notifies all of its subscribers of that breaking
-news
+breaking news alerts and be notified of breaking news.
+* `BreakingNewsFeed` maintains `observers` list of its subscribers.
+* Whenever `BreakingNewsFeed` sets a breaking news, it also notifies all of its subscribers of that breaking news via
+`sendNotification()` method.
+* The coding part of the program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Observer Design
 Pattern.
 * Check each file for blanks.
