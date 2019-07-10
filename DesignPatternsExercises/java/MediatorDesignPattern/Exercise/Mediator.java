@@ -12,8 +12,7 @@ public class Mediator {
 		buyersList.add(buyer);
 	}
 
-	// public void __________(4)__________(String currency, float bid) {
-	public void placeBid(String currency, float bid) {
+	public void __________(4)__________(String currency, float bid) {
 		ArrayList<Seller> sellers = new ArrayList<>();
 		for (Seller seller : sellersList) {
 			if (seller.getCurrency().equals(currency) && seller.getSellingPrice() > 0) {
@@ -23,8 +22,7 @@ public class Mediator {
 		if (sellers.isEmpty()) {
 			System.out.println("Seller is not found for " + bid + " " + currency);
 		} else {
-			// float dollarAmount = CurrencyConverter.__________(5)__________(currency, bid);
-			float dollarAmount = CurrencyConverter.convert(currency, bid);
+			float dollarAmount = CurrencyConverter.__________(5)__________(currency, bid);
 			for (Seller seller : sellers) {
 				if (seller.isBidAccepted(dollarAmount))
 					return;
