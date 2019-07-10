@@ -1,33 +1,33 @@
 public class HomeTheatre {
-	private LedTV ledTV;
-	private Speaker speaker;
-	private static int stateCount = 0;
+    private static int stateCount = 0;
+    private LedTV ledTV;
+    private Speaker speaker;
 
-	public HomeTheatre(LedTV ledTV, Speaker speaker) {
-		this.ledTV = ledTV;
-		this.speaker = speaker;
-		// __________(1)__________++;
-		stateCount++;
-	}
+    public HomeTheatre(LedTV ledTV, Speaker speaker) {
+        this.ledTV = ledTV;
+        this.speaker = speaker;
+        // __________(1)__________++;
+        stateCount++;
+    }
 
-	public Memento createMemento() {
-		// return __________(2)__________(ledTV, speaker);
-		return new Memento(ledTV, speaker);
-	}
+    public static int getStateCount() {
+        return stateCount;
+    }
 
-	public void setMemento(Memento memento) {
-		// ledTV = memento.__________(3)__________();
-		ledTV = memento.getLedTV();
-		// speaker = memento.__________(4)__________();
-		speaker = memento.getSpeaker();
-	}
+    public Memento getMemento() {
+        // return __________(2)__________(ledTV, speaker);
+        return new Memento(ledTV, speaker);
+    }
 
-	public static int getStateCount() {
-		return stateCount;
-	}
+    public void setMemento(Memento memento) {
+        // ledTV = __________(3)__________();
+        ledTV = memento.getLedTV();
+        // speaker = __________(4)__________();
+        speaker = memento.getSpeaker();
+    }
 
-	@Override
+    @Override
     public String toString() {
-		return ledTV + "\n    " + speaker;
+        return ledTV + "\n    " + speaker;
     }
 }

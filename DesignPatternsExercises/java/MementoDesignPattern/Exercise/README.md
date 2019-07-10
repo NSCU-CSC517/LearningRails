@@ -34,15 +34,17 @@ java MementoDesignPattern
 ```
 
 ## Exercise
-* In this example, `HomeTheatre` is the Originator and may be created with all possible combinations of `LedTV` and
-`Speaker` objects:
-  * TV1, Speaker1
-  * TV1, Speaker2
-  * TV2, Speaker1
-  * TV2, Speaker2
-* `Warehouse` is the Caretaker that contains all previous versions of the Memento.
-* `Warehouse` stores and retrieves previously stored Mementos.
-* `Memento` stores different states of `LedTV` and `Speaker` objects mirrored to `HomeTheatre`.
+* In this example, `HomeTheatre` is the Originator:
+  * All possible instances of `HomeTheatre` are instantiated with permutation of given `LedTV` and `Speaker` objects:
+    * TV1, Speaker1
+    * TV1, Speaker2
+    * TV2, Speaker1
+    * TV2, Speaker2
+  * It creates new Mementos via `getMemento()` method
+* `Warehouse` is the Caretaker that contains all previous versions of the Memento:
+  * It stores newly created and retrieves previously stored Mementos.
+* `Memento` stores different permutations of `LedTV` and `Speaker` objects mirrored at `HomeTheatre` objects.
+* This example is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Memento Design
 Pattern.
 * Check each file for blanks.
@@ -56,13 +58,13 @@ Upon executing the program, you should see the following output (assuming blanks
 -- -- Current Home Theatre State is 3 -- --
 Home Theatre State 3:
     LedTV:
-        size: 20, price: $200
+        size: 20, price: $200.0
     Speaker:
         wattage: 2000
 -- -- Rollback to Home Theatre State 0 -- --
 Home Theatre State 0:
     LedTV:
-        size: 10, price: $100
+        size: 10, price: $100.0
     Speaker:
         wattage: 1000
 ```
