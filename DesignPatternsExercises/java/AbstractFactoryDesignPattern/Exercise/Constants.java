@@ -1,7 +1,3 @@
-enum Country {
-	US, UK
-}
+enum Country { US, UK }
 
-enum Type {
-	PHONE, POST
-}
+enum Type { PHONE, POST }

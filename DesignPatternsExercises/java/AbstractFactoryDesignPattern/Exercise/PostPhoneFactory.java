@@ -1,9 +1,9 @@
 public abstract class PostPhoneFactory {
-	public static AbstractFactory getFactory(Type type) {
-		if (type == Type.PHONE)
-			return new __________(7)__________();
-		if (type == Type.POST)
-			return new __________(8)__________();
-		return null;
-	}
+    public __________(14)__________ AbstractFactory __________(15)__________(Type type) {
+        if (type == Type.PHONE)
+            return __________(16)__________();
+        if (type == Type.POST)
+            return __________(17)__________();
+        return null;
+    }
 }

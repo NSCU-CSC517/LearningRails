@@ -1,4 +1,4 @@
-public interface PostCode {
-	boolean __________(17)__________(String postalCode);
-	String __________(18)__________();
+__________(9)__________ PostCode {
+    boolean __________(10)__________(String postalCode);
+    String __________(11)__________();
 }

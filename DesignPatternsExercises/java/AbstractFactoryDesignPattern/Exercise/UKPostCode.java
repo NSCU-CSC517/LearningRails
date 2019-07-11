@@ -2,22 +2,25 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class UKPostCode implements PostCode {
-	private String __________(23)__________;
+    private String postalCode;
 
-	public UKPostCode(String postalCode) {
-		if(!__________(24)__________(postalCode))
-    		throw new IllegalArgumentException("Invalid postcode");
-    	this.postalCode = postalCode;
+    public UKPostCode(String postalCode) {
+        if(!__________(19)__________(postalCode))
+            throw new IllegalArgumentException("Invalid UK Post Code");
+        this.postalCode = postalCode;
+        System.out.println("Instantiating UKPostCode with " + postalCode);
     }
-	@Override
-	public boolean isValidPostalCode(String postalCode) {
-		String pattern = "^([A-PR-UWYZ](([0-9](([0-9]|[A-HJKSTUW])?)?)|([A-HK-Y][0-9]([0-9]|[ABEHMNPRVWXY])?)) [0-9][ABD-HJLNP-UW-Z]{2})"; 
-		Pattern p = Pattern.compile(pattern);
-		Matcher m = p.matcher(postalCode);
-		return m.matches();
-	}
-	@Override
-	public String getPostalCode() {
-		return postalCode;
-	}
+
+    @Override
+    public boolean isValidPostalCode(String postalCode) {
+        String pattern = "^([A-PR-UWYZ](([0-9](([0-9]|[A-HJKSTUW])?)?)|([A-HK-Y][0-9]([0-9]|[ABEHMNPRVWXY])?)) [0-9][ABD-HJLNP-UW-Z]{2})";
+        Pattern p = Pattern.compile(pattern);
+        Matcher m = p.matcher(postalCode);
+        return m.matches();
+    }
+
+    @Override
+    public String getPostalCode() {
+        return postalCode;
+    }
 }
