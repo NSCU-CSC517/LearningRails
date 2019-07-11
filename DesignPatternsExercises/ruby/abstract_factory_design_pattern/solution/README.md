@@ -37,14 +37,15 @@ ruby abstract_factory_design_pattern.rb
 ```
 
 ## Exercise
-* In this example, Abstract Factory Design Pattern for different countries' phone numbers and postal code is created,
-but incomplete.
-* Upon running the program, it should determine correct abstract factory at runtime.
-* Once correct abstract factory is determined, it instantiates the following instances based on the phone number and
-post code passed:
+* In this example, Abstract Factory Design Pattern is used to determine and create different countries' phone numbers
+and postal codes object at run time.
+* Once the program determines correct abstract factory at runtime, it attempts to instantiate following instances based
+on the phone number and post code passed:
   * `UKPhoneNumber` or `USPhoneNumber`
   * `UKPostCode` or `USPostCode`
-* If either phone number or post code does not match regular expression of expected format, it throws an exception.
+* If either phone number or post code does not match regular expression of teh expected format, it throws an exception
+and instance is not created.
+* The program is incomplete.
 * Please fill-in the '____________________'  blanks to make the program run successfully to follow Abstract Factory
 Design Pattern.
 * Check each file for blanks.
@@ -55,8 +56,13 @@ Design Pattern.
 Upon executing the program, you should see the following output (assuming all the blanks are filled in correctly):
 
 ```
-Creating instance of UKPhoneNumber: +44 7836 191 191
-Creating instance of USPhoneNumber: (919) 515-2011
-Creating instance of UKPostCode: SW15 5PU
-Creating instance of USPostCode: 27606
+Instantiated PhoneNumber with +44 7836 191 191
+Instantiated PhoneNumber with (919) 515-2011
++44 7836 191 191
+(919) 515-2011
+
+Instantiated PostCode with SW15 5PU
+Instantiated PostCode with 27606
+SW15 5PU
+27606
 ```

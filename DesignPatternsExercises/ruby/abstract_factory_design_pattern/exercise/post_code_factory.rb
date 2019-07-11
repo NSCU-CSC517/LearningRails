@@ -2,9 +2,9 @@ require_relative 'us_post_code'
 require_relative 'uk_post_code'
 
 class PostCodeFactory
-  def __________(8)__________(country, post_code)
-    return __________(9)__________.new(post_code) if country == :US
-    return __________(10)__________.new(post_code) if country == :UK
+  def __________(11)__________(country, post_code)
+    return __________(12)__________(post_code) if country == :US
+    return __________(13)__________(post_code) if country == :UK
 
     raise 'Country is not supported'
   end

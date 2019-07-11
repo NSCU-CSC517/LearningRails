@@ -1,10 +1,18 @@
 class PostCode
-  # def __________(7)__________(post_code)
+  # attr_reader __________(9)__________
+  attr_reader :post_code
+
+  # def __________(10)__________
   def initialize(post_code)
-    valid_post_code?(post_code) ? (@post_code = post_code) : (raise 'Invalid UK post code')
+    if valid_post_code?(post_code)
+      @post_code = post_code
+      puts "Instantiated PostCode with #{@post_code}"
+    else
+      raise 'Invalid Post Code'
+    end
   end
 
   def valid_post_code?(post_code)
-    raise NotImplementedError, 'Subclass must override this method'
+    raise NotImplementedError, 'Subclasses must override this method'
   end
 end
