@@ -1,12 +1,11 @@
 class LedTV
+  # def __________(6)__________(size, price)
   def initialize(size, price)
-    # __________(6)__________ = size
-    @led_tv = size
-    # __________(7)__________ = price
-    @speaker = price
+    @size = size
+    @price = price
   end
 
   def to_string
-    "Led TV:\n        size: #{@led_tv}, price: $#{@speaker}"
+    "Led TV:\n        size: #{@size}, price: $#{@price}"
   end
 end

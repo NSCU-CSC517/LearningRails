@@ -1,10 +1,10 @@
 class Warehouse
   def initialize
-    # __________(8)__________ = []
+    # __________(9)__________ = []
     @home_theatre_list = []
   end
 
-  # def __________(9)__________(memento)
+  # def __________(10)__________(memento)
   def add_memento(memento)
     @home_theatre_list << memento
   end
