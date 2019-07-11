@@ -5,6 +5,6 @@ class Extraction
   end
 
   def call_correct_extraction
-    raise NotImplementedError, 'Subclass must override this method'
+    raise NotImplementedError, 'Subclasses must override this method'
   end
 end
