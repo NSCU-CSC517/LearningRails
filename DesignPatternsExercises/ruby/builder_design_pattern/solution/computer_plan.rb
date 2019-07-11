@@ -1,7 +1,7 @@
 class ComputerPlan
   attr_reader :monitor_list, :ram_list, :hdd_list, :mouse
 
-  # def __________(16)__________
+  # def __________(8)__________
   def initialize
     @monitor_list = []
     @ram_list = []
