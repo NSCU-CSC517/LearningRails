@@ -4,10 +4,15 @@ class PostCode
 
   # def __________(2)__________(post_code)
   def initialize(post_code)
-    valid_post_code?(post_code) ? (@post_code = post_code) : (raise 'Invalid post code')
+    if valid_post_code?(post_code)
+      @post_code = post_code
+      puts "Instantiated PostCode with #{@post_code}"
+    else
+      raise 'Invalid Post Code'
+    end
   end
 
   def valid_post_code?(post_code)
-    raise NotImplementedError, 'Subclass must override this method'
+    raise NotImplementedError, 'Subclasses must override this method'
   end
 end

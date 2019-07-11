@@ -48,10 +48,12 @@ Pattern.
 Upon executing the program, you should see the following output:
 
 ```
-Creating instance of USPostCode:
-27606
-Creating instance of INPostCode:
+Instantiated PostCode with 576222
 576222
-Creating instance of UKPostCode:
+
+Instantiated PostCode with SW15 5PU
 SW15 5PU
+
+Instantiated PostCode with 27606
+27606
 ```
