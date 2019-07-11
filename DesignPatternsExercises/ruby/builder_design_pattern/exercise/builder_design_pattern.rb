@@ -2,7 +2,7 @@ require_relative 'computer_engineer'
 
 computer_engineer = ComputerEngineer.new
 
-computer = computer_engineer.make_computer
+computer = computer_engineer.build_computer
 computer_builder = computer_engineer.computer_builder
 computer_builder.add_hard_disk(64).add_ram(256).add_monitor(17).add_monitor(28).add_hard_disk(512).add_hard_disk(1024).add_hard_disk(2048).add_mouse('Optical')
 

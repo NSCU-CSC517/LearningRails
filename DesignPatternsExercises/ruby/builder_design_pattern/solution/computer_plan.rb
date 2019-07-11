@@ -1,6 +1,7 @@
 class ComputerPlan
   attr_reader :monitor_list, :ram_list, :hdd_list, :mouse
 
+  # def __________(16)__________
   def initialize
     @monitor_list = []
     @ram_list = []
@@ -8,18 +9,18 @@ class ComputerPlan
   end
 
   def add_monitor(monitor)
-    raise NotImplementedError, 'Subclass must override this method'
+    @monitor_list << monitor
   end
 
   def add_ram(ram)
-    raise NotImplementedError, 'Subclass must override this method'
+    @ram_list << ram
   end
 
   def add_hard_disk(hard_disk)
-    raise NotImplementedError, 'Subclass must override this method'
+    @hdd_list << hard_disk
   end
 
   def add_mouse(mouse)
-    raise NotImplementedError, 'Subclass must override this method'
+    @mouse = mouse
   end
 end
