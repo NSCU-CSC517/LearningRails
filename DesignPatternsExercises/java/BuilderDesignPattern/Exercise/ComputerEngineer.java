@@ -1,15 +1,15 @@
 public class ComputerEngineer {
-	private __________(1)__________ computerBuilder;
+    private ComputerBuilder computerBuilder;
 
-	public ComputerEngineer() {
-		computerBuilder = __________(2)__________();
-	}
+    public ComputerEngineer() {
+        computerBuilder = __________(6)__________();
+    }
 
-	public Computer makeComputer() {
-		return computerBuilder.__________(3)__________();
-	}
+    public Computer buildComputer() {
+        return computerBuilder.__________(7)__________();
+    }
 
-	public ComputerBuilder getComputerBuilder() {
-		return computerBuilder;
-	}
+    public PCBuilder getComputerBuilder() {
+        return computerBuilder;
+    }
 }

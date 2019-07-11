@@ -1,11 +1,11 @@
 public class Ram {
-	private int capacity;
+    private int capacity;
 
-	public Ram(int capacity) {
-		this.capacity = capacity;
-	}
+    public Ram(int capacity) {
+        this.capacity = capacity;
+    }
 
-	public int getRamCapacity() {
-		return capacity;
-	}
+    public int getRamCapacity() {
+        return capacity;
+    }
 }

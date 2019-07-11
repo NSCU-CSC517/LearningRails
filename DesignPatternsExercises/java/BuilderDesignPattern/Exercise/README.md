@@ -43,20 +43,25 @@ java BuilderDesignPattern
 ```
 
 ## Exercise
-* In this example, Builder Design Pattern is created, but incomplete.
+* In this example, Builder Design Pattern is used for building complex computer system that may have multiple HW
+components of the same type.
 * Complex `Computer` object is created with help of `ComputerEngineer` and `ComputerBuilder`.
 * It utilizes `ComputerEngineer` object to create `ComputerBuilder`, which creates `Computer` object.
 * `ComputerBuilder` class is used to build complex computer system with varies HW components of unlimited quantities
-added to it.
+added to it:
+  * It builds basic computer with no HW components at first
+  * It starts adding multiple HW components to computer by utilizing `add*` method calls
 * Computer may or may not have the following HW properties:
-  * Multiple monitors
-  * Multiple RAMs
-  * Multiple HDDs
+  * One or more monitors
+  * One or more RAMs
+  * One or more HDDs
   * Different type of Mouse
-* Once `ComputerEngineer` creates new `ComputerBuilder` object, program utilizes by start adding multiple HW components
-into by calling `add` methods on the `Computer` object.
+* Once `ComputerEngineer` creates new `ComputerBuilder` object, which creates new `Computer` object, program utilizes
+`ComputerBuilder` by start adding multiple HW components into computer by calling `add*` methods on the `Computer`
+object.
 * Once `add` is triggered in `Computer` class, it stores HW components into corresponding list of HW components.
 * To retrieve all these HW components, computer lists of HW are invoked directly from the client.
+* The program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Builder Design
 Pattern.
 * Check each file for blanks.
