@@ -1,11 +1,11 @@
-require_relative 'expression'
+require_relative 'statement'
 
-class Constant < Expression
-  def initialize(constant)
+class Constant < Statement
+  def __________(1)__________(constant)
     @constant = constant
   end
 
-  def __________(1)__________
+  def __________(2)__________
     @constant.to_i
   end
 end

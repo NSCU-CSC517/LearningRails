@@ -5,15 +5,15 @@ require_relative 'multiplication_expression'
 require_relative 'division_expression'
 
 class ExpressionReader
-  def __________(6)__________(expression)
+  def __________(7)__________(expression)
     expression_token = expression.split(' ')
     first_constant = Constant.new(expression_token[Operators::FIRST_CONSTANT_INDEX])
     second_constant = Constant.new(expression_token[Operators::SECOND_CONSTANT_INDEX])
 
-    return __________(7)__________(first_constant, second_constant) if expression.include?(Operators::SUMMATION_OPERATOR.to_s)
-    return __________(8)__________(first_constant, second_constant) if expression.include?(Operators::SUBTRACTION_OPERATOR.to_s)
-    return __________(9)__________(first_constant, second_constant) if expression.include?(Operators::MULTIPLICATION_OPERATOR.to_s)
-    return __________(10)__________(first_constant, second_constant) if expression.include?(Operators::DIVISION_OPERATOR.to_s)
+    return __________(8)__________(first_constant, second_constant) if expression.include?(Operators::SUMMATION_OPERATOR.to_s)
+    return __________(9)__________(first_constant, second_constant) if expression.include?(Operators::SUBTRACTION_OPERATOR.to_s)
+    return __________(10)__________(first_constant, second_constant) if expression.include?(Operators::MULTIPLICATION_OPERATOR.to_s)
+    return __________(11)__________(first_constant, second_constant) if expression.include?(Operators::DIVISION_OPERATOR.to_s)
 
     nil
   end
