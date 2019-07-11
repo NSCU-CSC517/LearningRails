@@ -7,6 +7,6 @@ class SupportChain
   end
 
   def handle_issue(issue_type)
-    raise NotImplementedError, 'Subclass must override this method'
+    raise NotImplementedError, 'Subclasses must override this method'
   end
 end
