@@ -35,10 +35,10 @@ java PrototypeDesignPattern
 ## Exercise
 * In this example, Prototype factory for cloning `Car` objects is created.
 * It specifies the kinds of objects to create using a prototypical instance as an argument, and creates new objects by
-cloning passed prototype.
+copying passed prototype.
 * To create a prototype in Java, `Cloneable` class is used most of the time.
 * In this example `Cloneable` class is also used to allow `PrototypeFactory` class to clone objects.
-* Note that `clonedCar` object shares the same properties as the `baseCar`, unless properties are changed.
+* Note that `clonedCar` object has the same properties as the `originalCar`, unless properties are changed.
 * Program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Prototype Design
 Pattern.
