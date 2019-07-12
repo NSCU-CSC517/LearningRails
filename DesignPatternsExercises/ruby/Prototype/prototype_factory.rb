@@ -1,2 +1,0 @@
-class PrototypeFactory
-end
