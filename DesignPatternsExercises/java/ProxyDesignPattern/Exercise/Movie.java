@@ -1,8 +1,12 @@
-class Movie implements VideoFunctions {
+class Movie __________(1)__________ VideoFunctions {
     private String name;
+    private int size;
+    private String director;
 
     public Movie(String name) {
         this.name = name;
+        this.size = 1023;
+        this.director = "Christopher Nolan";
     }
 
     @Override
@@ -12,7 +16,7 @@ class Movie implements VideoFunctions {
 
     @Override
     public void stopMovie() {
-        System.out.println("Stopped movie: " + name);
+        System.out.println("Stopping movie: " + name);
     }
 
     @Override
@@ -22,9 +26,6 @@ class Movie implements VideoFunctions {
 
     @Override
     public String getMovieDetails() {
-        if (name.equalsIgnoreCase("The Prestige"))
-            return "Movie:\n    Name: The Prestige\n    Size: 1023 MB\n    Director: Christopher Nolan";
-        else
-            return "Movie:\n    Details not available";
+        return "Movie Details:\n    Name: " + name + "\n    Size: " + size + "MB\n    Director: " + director;
     }
 }

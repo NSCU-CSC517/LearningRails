@@ -1,6 +1,6 @@
-interface __________(6)__________ {
+interface __________(8)__________ {
     void playMovie();
     void stopMovie();
     void deleteMovie();
-    String __________(7)__________();
+    String __________(9)__________();
 }

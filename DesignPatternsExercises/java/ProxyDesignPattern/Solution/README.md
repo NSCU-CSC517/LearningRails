@@ -29,10 +29,13 @@ java ProxyDesignPattern
 ```
 
 ## Exercise
-* In this example, `MovieProxy` is created, but incomplete.
+* In this example, `MovieProxy` is created to act as proxy between client (program) and `Movie` objects.
 * `MovieProxy` acts as a proxy to limit access for certain actions on `Movie` objects:
   * It blocks `deleteMovie()` method call for all movie objects
   * All other method calls it passes towards the movie object
+* Note that client (program) may not perform directly any actions on `Movie` objects.
+* All actions are controlled through the proxy.
+* Program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Proxy Design Pattern.
 * Check each file for blanks.
 * Enter filled in blanks into Google Doc Exercise.
@@ -42,11 +45,11 @@ java ProxyDesignPattern
 Upon executing the program, you should see the following output (assuming blanks are filled in correctly):
 
 ```
-Movie:
+Movie Details:
     Name: The Prestige
-    Size: 1023 MB
+    Size: 1023MB
     Director: Christopher Nolan
 Playing movie: The Prestige
-Stopped movie: The Prestige
+Stopping movie: The Prestige
 Deleting movie: Permission denied!!!
 ```

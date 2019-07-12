@@ -1,8 +1,8 @@
-// interface __________(6)__________ {
+// interface __________(8)__________ {
 interface VideoFunctions {
     void playMovie();
     void stopMovie();
     void deleteMovie();
-    // String __________(7)__________();
+    // String __________(9)__________();
     String getMovieDetails();
 }
