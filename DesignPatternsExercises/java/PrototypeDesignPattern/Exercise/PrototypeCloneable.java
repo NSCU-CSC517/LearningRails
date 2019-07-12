@@ -1,3 +1,3 @@
-interface PrototypeCloneable extends Cloneable {
-	PrototypeCloneable __________(4)__________() throws CloneNotSupportedException;
+__________(4)__________ PrototypeCloneable extends Cloneable {
+    PrototypeCloneable __________(5)__________ throws CloneNotSupportedException;
 }

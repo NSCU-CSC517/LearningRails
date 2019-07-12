@@ -33,12 +33,13 @@ java PrototypeDesignPattern
 ```
 
 ## Exercise
-* In this example, PrototypeFactory for cloning `Car` objects is created, but incomplete.
-* It specifies the kinds of objects to create using a prototypical instance, and creates new objects by copying
-prototype.
+* In this example, Prototype factory for cloning `Car` objects is created.
+* It specifies the kinds of objects to create using a prototypical instance as an argument, and creates new objects by
+cloning passed prototype.
 * To create a prototype in Java, `Cloneable` class is used most of the time.
-* In this example `Cloneable` class is also used the to allow `PrototypeFactory` class to clone objects.
-* Note that all `clonedCar` objects will share the same properties as the `baseCar`, unless properties are changed.
+* In this example `Cloneable` class is also used to allow `PrototypeFactory` class to clone objects.
+* Note that `clonedCar` object shares the same properties as the `baseCar`, unless properties are changed.
+* Program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Prototype Design
 Pattern.
 * Check each file for blanks.
@@ -49,16 +50,18 @@ Pattern.
 Upon executing the program, you should see the following output (assuming blanks are filled in correctly):
 
 ```
-Creating car object..
-Cloning Car object..
+Creating Car object...
+Cloning Car object...
 
+Original Car:
 Model: Toyota
-Number of seats: 4
+Number of Seats: 4
 Engine Volume: 2000 cm^3
 Horse Power: 150
 
+Cloned Car:
 Model: Honda
-Number of seats: 4
+Number of Seats: 4
 Engine Volume: 2000 cm^3
 Horse Power: 150
 ```

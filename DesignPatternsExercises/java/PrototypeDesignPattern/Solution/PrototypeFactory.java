@@ -1,7 +1,7 @@
 public class PrototypeFactory {
-    // public static PrototypeCloneable __________(5)__________(PrototypeCloneable cloneableObject) throws CloneNotSupportedException {
+    // public __________(6)__________ PrototypeCloneable __________(7)__________(PrototypeCloneable cloneableObject) throws CloneNotSupportedException {
     public static PrototypeCloneable getInstance(PrototypeCloneable cloneableObject) throws CloneNotSupportedException {
-        // return cloneableObject.__________(6)__________();
+        // return cloneableObject.__________(8)__________();
         return cloneableObject.clone();
     }
 }
