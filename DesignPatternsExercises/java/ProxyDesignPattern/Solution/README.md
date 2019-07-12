@@ -18,7 +18,7 @@
     * Object is accessed from a remote location and need to have permissions
 * Both Decorator and Proxy patterns delegate execution of a method to the subject.
 * Example(s):
-  * Using Rails statements rather than SQL code to access a database.
+  * Using Rails statements rather than SQL code to access a database
 
 ## Run the program
 To execute the program from command line, please use the following command:
@@ -31,10 +31,10 @@ java ProxyDesignPattern
 ## Exercise
 * In this example, `MovieProxy` is created to act as proxy between client (program) and `Movie` objects.
 * `MovieProxy` acts as a proxy to limit access for certain actions on `Movie` objects:
-  * It blocks `deleteMovie()` method call for all movie objects
-  * All other method calls it passes towards the movie object
-* Note that client (program) may not perform directly any actions on `Movie` objects.
-* All actions are controlled through the proxy.
+  * It blocks `deleteMovie()` method call to all movie objects
+  * All other method calls are passed towards movie object
+* Note that client (program) may not perform directly any actions on `Movie` objects:
+  * All actions are controlled through the proxy
 * Program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Proxy Design Pattern.
 * Check each file for blanks.

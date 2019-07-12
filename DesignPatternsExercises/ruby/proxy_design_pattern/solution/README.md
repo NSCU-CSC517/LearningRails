@@ -1,4 +1,4 @@
-# Proxy Design Pattern Exercise in Java
+# Proxy Design Pattern Exercise in Ruby
 
 ## Description
 * Proxy Design Pattern is reviewed in this example and exercise.
@@ -24,22 +24,22 @@
 To execute the program from command line, please use the following command:
 
 ```
-javac ProxyDesignPattern.java
-java ProxyDesignPattern
+ruby proxy_design_pattern.rb
 ```
 
 ## Exercise
 * In this example, `MovieProxy` is created to act as proxy between client (program) and `Movie` objects.
 * `MovieProxy` acts as a proxy to limit access for certain actions on `Movie` objects:
-  * It blocks `deleteMovie()` method call to all movie objects
-  * All other method calls are passed towards movie object
+  * It blocks `#delete_movie` method call to all movie objects
+  * All other method calls are passed towards the movie object
+  * If method call does not exist, it calls `VideoFunction#method_missing` method to handle any unexpected behavior
 * Note that client (program) may not perform directly any actions on `Movie` objects:
   * All actions are controlled through the proxy
 * Program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Proxy Design Pattern.
 * Check each file for blanks.
 * Enter filled in blanks into Google Doc Exercise.
-* Start with `ProxyDesignPattern.java` file.
+* Start with `proxy_design_pattern.rb` file.
 
 ## Expected Output
 Upon executing the program, you should see the following output (assuming blanks are filled in correctly):
@@ -47,9 +47,10 @@ Upon executing the program, you should see the following output (assuming blanks
 ```
 Movie Details:
     Name: The Prestige
-    Size: 1023MB
+    Size: 1023 MB
     Director: Christopher Nolan
 Playing movie: The Prestige
 Stopping movie: The Prestige
 Deleting movie: Permission denied!!!
+Unable to perform action record_movie on Movie object
 ```
