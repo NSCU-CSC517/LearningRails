@@ -52,8 +52,8 @@
 ## Run the program
 To execute the program from command line, please run the following commands:
 ```
-javac StrategyPatternExample.java
-java StrategyPatternExample
+javac StrategyDesignPattern.java
+java StrategyDesignPattern
 ```
 
 ## Exercise
@@ -76,7 +76,7 @@ capable to extract given file:
 Pattern.
 * Check each file for blanks.
 * Enter missing statements (blanks) into Google Doc Exercise.
-* Start with `StrategyPatternExample.java` file.
+* Start with `StrategyDesignPattern.java` file.
 
 ## Expected Output
 
