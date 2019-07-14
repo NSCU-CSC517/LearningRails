@@ -43,9 +43,8 @@ java TemplateMethodDesignPattern
   * Car Travel
 * `Travel` is an abstract class that defines the skeleton of travel algorithm:
   * `templateTravel()` is the Template Method that provides algorithm-specific operations
-* All subclasses of abstract `Travel` class follow the same structure of algorithm.
-* Methods that are not related to a specific travel, (e.g. `setMeal()` for Car Travel) override them in the default way:
-  * Left empty method implementation `{}`
+* All subclasses of abstract `Travel` class follow the same algorithm for building travel object.
+* Methods that are not related to a specific travel, (e.g. `setMeal()` for Car Travel)  have empty body implementation.
 * Program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Template Method
 Design Pattern.

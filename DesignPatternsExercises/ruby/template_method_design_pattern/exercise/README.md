@@ -1,4 +1,4 @@
-# Template Method Design Pattern Exercise in Java
+# Template Method Design Pattern Exercise in Ruby
 
 ## Description
 * Template Method Design Pattern is reviewed in this example and exercise.
@@ -32,8 +32,7 @@
 To execute the program from command line, please use the following command:
 
 ```
-javac TemplateMethodDesignPattern.java
-java TemplateMethodDesignPattern
+ruby template_method_design_pattern.rb
 ```
 
 ## Exercise
@@ -42,15 +41,15 @@ java TemplateMethodDesignPattern
   * Bus Travel
   * Car Travel
 * `Travel` is an abstract class that defines the skeleton of travel algorithm:
-  * `templateTravel()` is the Template Method that provides algorithm-specific operations
+  * `#template_travel` is the Template Method that provides algorithm-specific operations
 * All subclasses of abstract `Travel` class follow the same algorithm for building travel object.
-* Methods that are not related to a specific travel, (e.g. `setMeal()` for Car Travel)  have empty body implementation.
+* Method calls that are not related to a specific travel, (e.g. `#meal` for Car Travel) have empty body implementation.
 * Program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Template Method
 Design Pattern.
 * Check each file for blanks.
 * Enter filled in blanks into Google Doc Exercise.
-* Start with `TemplateMethodDesignPattern.java` file.
+* Start with `template_method_design_pattern.rb` file.
 
 ## Expected Output
 Upon executing the program, you should see the following output (assuming blanks are filled in correctly):
