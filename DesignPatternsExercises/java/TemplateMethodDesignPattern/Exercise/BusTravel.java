@@ -13,10 +13,12 @@ public class BusTravel extends Travel {
     }
 
     @Override
-    void setMeal() {}
+    void setMeal() {
+    }
 
     @Override
-    void usePrivateVehicle() {}
+    void usePrivateVehicle() {
+    }
 
     @Override
     void bookTicket() {
@@ -25,11 +27,12 @@ public class BusTravel extends Travel {
 
     @Override
     void displayTravelDetails() {
-        System.out.println("Bus Travel:");
+        System.out.print("Bus Travel:");
         if (booked)
-            __________(2)__________.displayTravelDetails();
+            // __________(2)__________.displayTravelDetails();
+            super.displayTravelDetails();
         else
-            System.out.println("    Transaction cancelled");
+            System.out.println(" Transaction cancelled");
         System.out.println();
     }
 }

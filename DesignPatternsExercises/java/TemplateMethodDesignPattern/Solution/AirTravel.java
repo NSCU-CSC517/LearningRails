@@ -19,7 +19,8 @@ public class AirTravel extends Travel {
     }
 
     @Override
-    void usePrivateVehicle() {}
+    void usePrivateVehicle() {
+    }
 
     @Override
     void bookTicket() {
@@ -29,15 +30,15 @@ public class AirTravel extends Travel {
 
     @Override
     void displayTravelDetails() {
-        System.out.println("Air Travel:");
+        System.out.print("Air Travel:");
         if (booked) {
             // __________(1)__________.displayTravelDetails();
             super.displayTravelDetails();
             if (meal != null) {
-                System.out.println("        Meal selected: " + meal);
+                System.out.println("    Meal selected: " + meal);
             }
         } else {
-            System.out.println("    Transaction cancelled");
+            System.out.println(" Transaction cancelled");
         }
         System.out.println();
     }

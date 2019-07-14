@@ -37,11 +37,16 @@ java TemplateMethodDesignPattern
 ```
 
 ## Exercise
-* In this example, `setTravel()` is the Template Method that is created, but incomplete.
-* `Travel` class defines the skeleton of travel algorithm.
-* All subclasses of the `Travel` follow the same structure of the algorithm.
-* Methods that are not related to a specific travel, (e.g. `setMeal()` for Road Trip) override them in the default way:
-  * Left empty implementation `{}`
+* In this example, Template Method Design Pattern is used to setup travel information for varies types of travel:
+  * Air Travel
+  * Bus Travel
+  * Car Travel
+* `Travel` is an abstract class that defines the skeleton of travel algorithm:
+  * `templateTravel()` is the Template Method that provides algorithm-specific operations
+* All subclasses of abstract `Travel` class follow the same structure of algorithm.
+* Methods that are not related to a specific travel, (e.g. `setMeal()` for Car Travel) override them in the default way:
+  * Left empty method implementation `{}`
+* Program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Template Method
 Design Pattern.
 * Check each file for blanks.
@@ -52,33 +57,30 @@ Design Pattern.
 Upon executing the program, you should see the following output (assuming blanks are filled in correctly):
 
 ```
-Setting travel information:
+Template travel information:
 Setting dates...
 Setting destination...
 Selecting meal...
 Booking ticket...
-Air Travel:
-    Travel has been confirmed. Here is details:
-        Start Date: 07/04/2019
-        End Date: 08/10/2019
-        Destination: Tokyo, Japan
-        Meal selected: Asian Vegetarian
+Air Travel: Travel has been confirmed.
+    Start Date: 07/04/2019
+    End Date: 08/10/2019
+    Destination: Tokyo, Japan
+    Meal selected: Asian Vegetarian
 
-Setting travel information:
+Template travel information:
 Setting dates...
 Setting destination...
 Booking ticket...
-Bus Travel:
-    Transaction cancelled
+Bus Travel: Transaction cancelled
 
-Setting travel information:
+Template travel information:
 Setting dates...
 Setting destination...
 Selecting vehicle...
-Road Travel:
-    Travel has been confirmed. Here is details:
-        Start Date: 01/01/2020
-        End Date: 01/10/2020
-        Destination: Miami, FL, USA
-        Vehicle selected: Honda Freed
+Car Travel: Travel has been confirmed.
+    Start Date: 01/01/2020
+    End Date: 01/10/2020
+    Destination: Miami, FL, USA
+    Vehicle selected: Honda Freed
 ```

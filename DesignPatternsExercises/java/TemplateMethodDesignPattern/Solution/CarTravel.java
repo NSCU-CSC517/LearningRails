@@ -1,4 +1,4 @@
-public class RoadTrip extends Travel {
+public class CarTravel extends Travel {
     @Override
     public void setDates() {
         System.out.println("Setting dates...");
@@ -13,7 +13,8 @@ public class RoadTrip extends Travel {
     }
 
     @Override
-    void setMeal() {}
+    void setMeal() {
+    }
 
     @Override
     void usePrivateVehicle() {
@@ -22,14 +23,16 @@ public class RoadTrip extends Travel {
     }
 
     @Override
-    void bookTicket() {}
+    void bookTicket() {
+    }
 
     @Override
     void displayTravelDetails() {
-        System.out.println("Road Travel:");
-        __________(3)__________.displayTravelDetails();
+        System.out.print("Car Travel:");
+        // __________(3)__________.displayTravelDetails();
+        super.displayTravelDetails();
         if (vehicle != null)
-            System.out.println("        Vehicle selected: " + vehicle);
+            System.out.println("    Vehicle selected: " + vehicle);
     }
 
     @Override

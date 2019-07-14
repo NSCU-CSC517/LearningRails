@@ -1,12 +1,12 @@
 public class TemplateMethodDesignPattern {
     public static void main(String[] args) {
         Travel travel = new AirTravel();
-        travel.setTravel();
+        travel.templateTravel();
 
         travel = new BusTravel();
-        travel.setTravel();
+        travel.templateTravel();
 
-        travel = new RoadTrip();
-        travel.setTravel();
+        travel = new CarTravel();
+        travel.templateTravel();
     }
 }
