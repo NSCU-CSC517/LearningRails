@@ -29,8 +29,7 @@ public class BusTravel extends Travel {
     void displayTravelDetails() {
         System.out.print("Bus Travel:");
         if (booked)
-            // __________(2)__________.displayTravelDetails();
-            super.displayTravelDetails();
+            __________(2)__________.displayTravelDetails();
         else
             System.out.println(" Transaction cancelled");
         System.out.println();

@@ -1,10 +1,8 @@
-// public __________(4)__________ class __________(5)__________ {
-public abstract class Travel {
+public __________(4)__________ class __________(5)__________ {
     protected String startDate, endDate, destination, meal, vehicle;
     protected boolean booked = false;
 
-    // __________(6)__________ void __________(7)__________() {
-    final void templateTravel() {
+    __________(6)__________ void __________(7)__________() {
         System.out.println("Template travel information:");
         setDates();
         setDestination();
@@ -27,8 +25,7 @@ public abstract class Travel {
 
     abstract void bookTicket();
 
-    // void __________(8)__________() {
-    void displayTravelDetails() {
+    void __________(8)__________() {
         System.out.println(" Travel has been confirmed.");
         System.out.println("    Start Date: " + startDate);
         System.out.println("    End Date: " + endDate);
@@ -39,8 +36,7 @@ public abstract class Travel {
         return true;
     }
 
-    // boolean __________(9)__________() {
-    boolean isMealAvailable() {
+    boolean __________(9)__________() {
         return false;
     }
 }

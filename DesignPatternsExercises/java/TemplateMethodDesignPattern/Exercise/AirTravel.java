@@ -32,8 +32,7 @@ public class AirTravel extends Travel {
     void displayTravelDetails() {
         System.out.print("Air Travel:");
         if (booked) {
-            // __________(1)__________.displayTravelDetails();
-            super.displayTravelDetails();
+            __________(1)__________.displayTravelDetails();
             if (meal != null) {
                 System.out.println("    Meal selected: " + meal);
             }

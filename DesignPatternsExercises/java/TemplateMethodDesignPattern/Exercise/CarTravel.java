@@ -29,8 +29,7 @@ public class CarTravel extends Travel {
     @Override
     void displayTravelDetails() {
         System.out.print("Car Travel:");
-        // __________(3)__________.displayTravelDetails();
-        super.displayTravelDetails();
+        __________(3)__________.displayTravelDetails();
         if (vehicle != null)
             System.out.println("    Vehicle selected: " + vehicle);
     }
