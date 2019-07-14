@@ -7,12 +7,12 @@ class FamilyMember {
         this.balance = __________(5)__________;
     }
 
-    public void withdraw(int val) {
-        __________(6)__________.withdraw(val);
+    public void withdraw(int amount) {
+        __________(6)__________.withdraw(amount);
     }
 
-    public void deposit(int val) {
-        __________(7)__________.deposit(val);
+    public void deposit(int amount) {
+        __________(7)__________.deposit(amount);
     }
 
     public int getBalance() {
