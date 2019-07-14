@@ -1,31 +1,22 @@
-public class AtmMachine implements AtmMachineState {
-    // private final AtmMachineState cardInsertedState = new __________(1)__________();
-    private final AtmMachineState cardInsertedState = new CardInsertedState();
-    private final AtmMachineState cardEjectedState = new CardEjectedState();
-    private AtmMachineState atmMachineState;
+public class AtmMachine implements AtmMachineStates {
+    // private final AtmMachineStates cardEjectedState = __________(1)__________();
+    private final AtmMachineStates cardEjectedState = new CardEjectedState();
+    private final AtmMachineStates cardInsertedState = new CardInsertedState();
+    private AtmMachineStates atmMachineState;
 
     public AtmMachine() {
+        // __________(2)__________ = cardEjectedState;
         atmMachineState = cardEjectedState;
     }
 
-    // public String __________(2)__________() {
+    // public String __________(3)__________() {
     public String getAtmMachineState() {
         return atmMachineState.getClass().getName();
     }
 
     @Override
-    public boolean insertCard() {
-        // if (atmMachineState.__________(3)__________()) {
-        if (atmMachineState.insertCard()) {
-            atmMachineState = cardInsertedState;
-            return true;
-        }
-        return false;
-    }
-
-    @Override
     public boolean ejectCard() {
-        // if (atmMachineState.__________(4)__________()) {
+        // if (__________(4)__________()) {
         if (atmMachineState.ejectCard()) {
             atmMachineState = cardEjectedState;
             return true;
@@ -34,11 +25,18 @@ public class AtmMachine implements AtmMachineState {
     }
 
     @Override
-    public boolean withdraw() {
-        // if (atmMachineState.__________(5)__________()) {
-        if (atmMachineState.withdraw()) {
+    public boolean insertCard() {
+        // if (__________(5)__________()) {
+        if (atmMachineState.insertCard()) {
+            atmMachineState = cardInsertedState;
             return true;
         }
         return false;
+    }
+
+    @Override
+    public boolean withdraw() {
+        // return __________(6)__________();
+        return atmMachineState.withdraw();
     }
 }

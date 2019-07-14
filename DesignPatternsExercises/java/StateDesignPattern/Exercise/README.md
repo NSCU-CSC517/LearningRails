@@ -57,14 +57,20 @@ java StateDesignPattern
 ```
 
 ## Exercise
-* In this example, State Design Pattern is created, but incomplete to simulate an ATM Machine  
-* Success of an action given by the program depends on the current state of the ATM Machine
+* In this example, State Design Pattern is used to simulate basic ATM Machine with its few possible states described in
+`AtmMachineStates` interface:
+  * Eject card state
+  * Insert card state
+  * Withdraw money using card state
+* `AtmMachine` instance is always initialized to `CardEjectedState` instance upon its creation.
+* Success of an action given by the client (or program) depends upon the current state of the ATM Machine instance:
   * Card is ejected:
-    * May not withdraw nor eject card
+    * May not withdraw money nor eject card
     * May insert card
   * Card is inserted:
     * May withdraw and eject card
     * May not insert card
+* Program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow State Design Pattern.
 * Check each file for blanks.
 * Enter filled in blanks into Google Doc Exercise.

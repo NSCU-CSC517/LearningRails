@@ -1,14 +1,14 @@
-public class CardInsertedState implements AtmMachineState {
-    @Override
-    public boolean insertCard() {
-        System.out.println("Card is already inserted into ATM Machine slot...");
-        return false;
-    }
-
+public class CardInsertedState implements AtmMachineStates {
     @Override
     public boolean ejectCard() {
         System.out.println("Card is ejected...");
         return true;
+    }
+
+    @Override
+    public boolean insertCard() {
+        System.out.println("Card is already inserted into ATM Machine slot...");
+        return false;
     }
 
     @Override
