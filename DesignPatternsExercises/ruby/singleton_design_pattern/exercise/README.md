@@ -1,4 +1,4 @@
-# Singleton Design Pattern Exercise in Java
+# Singleton Design Pattern Exercise in Ruby
 
 ## Description
 * Singleton Design Pattern is reviewed in this example and exercise.
@@ -13,20 +13,19 @@
 ## Run the program
 To execute the program from command line, please run the following commands:
 ```
-javac SingletonDesignPattern.java
-java SingletonDesignPattern
+ruby singleton_design_pattern.rb
 ```
 
 ## Exercise
 * In this example, singleton design pattern is used to manage common bank account shared by different family members.
-* Once `FamilyMember` is getting instantiated, it assigns balance instance to him/her via static `getInstance()` method:
-  * If requested instance of the `Balance` is `null`, it creates new one with $100 deposited
+* Once `FamilyMember` is getting instantiated, it assigns balance instance to him/her via `#instance` method call:
+  * If requested instance of the `Balance` is `nil`, it creates new one with $100 deposited
 * Program is incomplete.
 * Please fill-in the '____________________'  blanks to make the program run successfully to follow Singleton Design
 Pattern.
 * Check each file for blanks.
 * Enter missing statements (blanks) into Google Doc Exercise.
-* Start with `SingletonDesignPattern.java` file.
+* Start with `singleton_design_pattern.rb` file.
 
 ## Expected Output
 Upon executing the program, you should see the following output (assuming all the blanks are filled in correctly):

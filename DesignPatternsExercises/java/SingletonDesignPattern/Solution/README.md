@@ -7,6 +7,8 @@
 * It is used when:
   * There is a need to eliminate the option of instantiating more than one object
   * Must return the single instance by using a class method
+* Example(s):
+  * Device manager application
 
 ## Run the program
 To execute the program from command line, please run the following commands:
