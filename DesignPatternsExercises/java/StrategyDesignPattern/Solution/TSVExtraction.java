@@ -1,21 +1,20 @@
 class TSVExtraction implements Extraction {
+    @Override
+    public void extract() {
+        // __________(12)__________;
+        open();
+        System.out.println("TSV Data type is getting extracted by separating row by tabs...");
+        // __________(13)__________;
+        close();
+    }
 
-	public void extract() {
-		// __________(10)__________
-		open();
+    @Override
+    public void open() {
+        System.out.println("Opening TSV file...");
+    }
 
-		// __________(11)__________
-		System.out.println("I will extract by separating row by tabs.");
-
-		// __________(12)__________
-		close();
-	}
-
-	public void open() {
-		System.out.println("Opening TSV file");
-	}
-
-	public void close() {
-		System.out.println("Closing TSV file");
-	}
+    @Override
+    public void close() {
+        System.out.println("Closing TSV file...");
+    }
 }

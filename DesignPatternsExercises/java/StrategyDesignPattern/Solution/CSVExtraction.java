@@ -1,21 +1,20 @@
 class CSVExtraction implements Extraction {
+    @Override
+    public void extract() {
+        // __________(2)__________;
+        open();
+        System.out.println("CSV Data type is getting extracted by separating row by commas...");
+        // __________(3)__________;
+        close();
+    }
 
-	public void extract() {
-		// __________(1)__________
-		open();
+    @Override
+    public void open() {
+        System.out.println("Opening CSV file...");
+    }
 
-		// __________(2)__________
-		System.out.println("I will extract by separating row by commas.");
-
-		// __________(3)__________
-		close();
-	}
-
-	public void open() {
-		System.out.println("Opening CSV file");
-	}
-
-	public void close() {
-		System.out.println("Closing CSV file");
-	}
+    @Override
+    public void close() {
+        System.out.println("Closing CSV file...");
+    }
 }

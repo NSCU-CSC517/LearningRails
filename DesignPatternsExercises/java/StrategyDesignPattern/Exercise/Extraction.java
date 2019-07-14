@@ -1,5 +1,5 @@
-interface Extraction {
-	void extract();
-	void open();
-	void close();
+__________(9)__________ {
+    void __________(10)__________();
+    void open();
+    void close();
 }

@@ -1,25 +1,15 @@
-import java.util.Scanner;
-
 public class StrategyPatternExample {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
+        System.out.println("Extraction tool for CSV file:");
+        DataType dataType = new CSVDataType();
+        dataType.extractData();
 
-		System.out.println("Select one of the data types (d-Database/c-CSV/t-TSV): ");
-		Scanner sc = new Scanner(System.in);
-		String datatype = sc.nextLine();
+        System.out.println("\nExtraction tool for DB file:");
+        dataType = new DBDataType();
+        dataType.extractData();
 
-		Data data = null;
-		switch (datatype) {
-		case "d":
-			data = __________(7)__________
-			break;
-		case "c":
-			data = __________(8)__________
-			break;
-		case "t":
-			data = __________(9)__________
-			break;
-		}
-		data.extractData();
-		sc.close();
-	}
+        System.out.println("\nExtraction tool for TSV file:");
+        dataType = new TSVDataType();
+        dataType.extractData();
+    }
 }

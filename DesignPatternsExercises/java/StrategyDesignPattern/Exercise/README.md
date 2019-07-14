@@ -39,11 +39,15 @@
    * This is true Template Method Design Pattern
   - In Strategy Design Pattern, the common methods are designed to be called in different orders by different classes
   - In Template Method, they are going to be called in a specific order
-* Examples:
-  * Implement an online payment option that allows various means of payment
-  * User may add a credit card, debit card, or bank account
-  * Each of these have their own ways of finding the issuing bank, adding the account, and submitting payment, among
-  other tasks.
+* Example(s):
+  * Online payment options:
+    * Implement an online payment option that allows various means of payment
+    * User may add a credit card, debit card, or bank account
+    * Each of these have their own ways to do the following tasks:
+      * Finding issuing bank
+      * Adding account
+      * Submitting payment
+      * etc.
 
 ## Run the program
 To execute the program from command line, please run the following commands:
@@ -53,7 +57,21 @@ java StrategyPatternExample
 ```
 
 ## Exercise
-* In this example, extraction system for 3 types of files is created, but incomplete.
+* In this example, Strategy Design Pattern is created to illustrate extraction tool simulator that can work with 3
+(three) types of files:
+  * CSV
+  * DB
+  * TSV
+* Prior making a call to extract desired file, program first instantiates correct `DataType` based on the given file:
+  * `CSVDataType` for CSV file
+  * `DBDataType` for DB file
+  * `TSVDataType` for TSV file
+* `DataType` is interface that each given data type in the program must implement.
+* Upon having correct `DataType` at runtime, the program calls `extractData()` method on correct data type that is
+capable to extract given file:
+  * It initiates a call to`extract()` method of determined `DataType`
+  * Extract method opens a file, prints how it is extracting a file, and closes a file.
+* Program is incomplete.
 * Please fill-in the '____________________'  blanks to make the program run successfully to follow Strategy Design
 Pattern.
 * Check each file for blanks.
@@ -61,38 +79,20 @@ Pattern.
 * Start with `StrategyPatternExample.java` file.
 
 ## Expected Output
-Upon executing the program, you should see the following output:
 
 ```
-Select one of the data types (d-Database/c-CSV/t-TSV): 
-```
+Extraction tool for CSV file:
+Opening CSV file...
+CSV Data type is getting extracted by separating row by commas...
+Closing CSV file...
 
-The program then prompts the user to enter desired data type by a single letter (e.g., 'd', 'c', or 't').
-The following is sample output of each run with different data type.
+Extraction tool for DB file:
+Opening DB file...
+DB Data type is getting extracted by reading rows and columns...
+Closing DB file...
 
-* For option 'd'
-```
-Select one of the data types (d-Database/c-CSV/t-TSV): 
-d
-Opening database file
-DB: I will extract by reading rows and columns
-Closing database file
-```
-
-* For option 'c'
-```
-Select one of the data types (d-Database/c-CSV/t-TSV): 
-c
-Opening CSV file
-CSV: I will extract by separating row by commas.
-Closing CSV file
-```
-
-* For option 't'
-```
-Select one of the data types (d-Database/c-CSV/t-TSV): 
-t
-Opening TSV file
-TSV: I will extract by separating row by tabs.
-Closing TSV file
+Extraction tool for TSV file:
+Opening TSV file...
+TSV Data type is getting extracted by separating row by tabs...
+Closing TSV file...
 ```
