@@ -1,4 +1,4 @@
-# Strategy Design Pattern Exercise in Java
+# Strategy Design Pattern Exercise in Ruby
 
 ## Description
 * Strategy Design Pattern is reviewed in this example and exercise.
@@ -52,8 +52,7 @@
 ## Run the program
 To execute the program from command line, please run the following commands:
 ```
-javac StrategyDesignPattern.java
-java StrategyDesignPattern
+ruby strategy_design_pattern.rb
 ```
 
 ## Exercise
@@ -67,16 +66,16 @@ java StrategyDesignPattern
   * `DBDataType` for DB file
   * `TSVDataType` for TSV file
 * `DataType` is interface that each given data type in the program must implement.
-* Upon having correct `DataType` at runtime, the program calls `extractData()` method on correct data type that is
-capable of extracting a file:
-  * It initiates a call to`extract()` method of determined `DataType`
-  * Extract method opens a file, prints how it is extracting a file, and closes a file
+* Upon having correct `DataType` at runtime, the program makes `DataType#extract_data` method call on correct data type
+that is capable of extracting a file:
+  * It initiates`Extraction#extract` method call of determined `DataType`
+  * Extract method call opens a file, prints how it is extracting a file, and closes a file
 * Program is incomplete.
 * Please fill-in the '____________________'  blanks to make the program run successfully to follow Strategy Design
 Pattern.
 * Check each file for blanks.
 * Enter missing statements (blanks) into Google Doc Exercise.
-* Start with `StrategyDesignPattern.java` file.
+* Start with `strategy_design_pattern.rb` file.
 
 ## Expected Output
 Upon executing the program, you should see the following output (assuming blanks are filled in correctly):

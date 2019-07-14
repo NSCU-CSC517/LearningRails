@@ -68,9 +68,9 @@ java StrategyDesignPattern
   * `TSVDataType` for TSV file
 * `DataType` is interface that each given data type in the program must implement.
 * Upon having correct `DataType` at runtime, the program calls `extractData()` method on correct data type that is
-capable to extract given file:
+capable of extracting a file:
   * It initiates a call to`extract()` method of determined `DataType`
-  * Extract method opens a file, prints how it is extracting a file, and closes a file.
+  * Extract method opens a file, prints how it is extracting a file, and closes a file
 * Program is incomplete.
 * Please fill-in the '____________________'  blanks to make the program run successfully to follow Strategy Design
 Pattern.
@@ -79,6 +79,7 @@ Pattern.
 * Start with `StrategyDesignPattern.java` file.
 
 ## Expected Output
+Upon executing the program, you should see the following output (assuming blanks are filled in correctly):
 
 ```
 Extraction tool for CSV file:
