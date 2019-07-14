@@ -38,14 +38,18 @@ java VisitorDesignPattern
 ```
 
 ## Exercise
+* In this example, Visitor Design Pattern is used to generate report on active customers with multiple orders and orders
+with multiple items. 
 * Visitor's primary purpose is to abstract functionality that can be applied to an aggregate hierarchy of "element"
 objects.
 * The hierarchy in this example is `Customer -> Order`.
 * `GeneralReport` class is the one which will go through all hierarchy and print element details.
 * The `accept()` method causes flow of control to find the correct Element subclass.
 * When the `visit()` method is invoked, flow of control is vectored to the correct visitor subclass.
-* Customer may have multiple orders and order may have multiple items in it
+* Customer may have multiple orders.
+* Order may have multiple items.
 * To display all the details, program visits all the nodes in hierarchy.
+* Program is incomplete.
 * Please fill in the `____________________`  blanks to make the program run successfully to follow Visitor Design
 Pattern.
 * Check each file for blanks.

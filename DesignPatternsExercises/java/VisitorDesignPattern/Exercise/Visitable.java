@@ -1,3 +1,3 @@
-public interface Visitable {
-    void __________(7)__________(Visitor visitor);
+__________(9)__________ {
+    void __________(10)__________(Visitor visitor);
 }

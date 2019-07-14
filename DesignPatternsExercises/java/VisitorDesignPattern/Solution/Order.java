@@ -10,7 +10,7 @@ public class Order implements Visitable {
 
     @Override
     public void accept(Visitor visitor) {
-        // visitor.visit(__________(6)__________);
+        // visitor.__________(7)__________;
         visitor.visit(this);
     }
 
@@ -22,6 +22,7 @@ public class Order implements Visitable {
         return name;
     }
 
+    // public ArrayList<String> __________(8)__________() {
     public ArrayList<String> getItems() {
         return items;
     }

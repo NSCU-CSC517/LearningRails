@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Customer implements Visitable {
     private String name;
+    // private ArrayList<__________(1)__________> orders = new ArrayList<>();
     private ArrayList<Order> orders = new ArrayList<>();
 
     public Customer(String name) {
@@ -10,11 +11,11 @@ public class Customer implements Visitable {
 
     @Override
     public void accept(Visitor visitor) {
-        // visitor.visit(__________(1)__________);
+        // visitor.__________(2)__________;
         visitor.visit(this);
         System.out.println("Orders:");
         for (Order order : orders)
-            // order.__________(2)__________(visitor);
+            // order.__________(3)__________;
             order.accept(visitor);
         System.out.println();
     }

@@ -1,4 +1,4 @@
-public interface Visitor {
-    void visit(Customer customer);
-    void visit(Order order);
+__________(11)__________ {
+    void __________(12)__________(Customer customer);
+    void __________(13)__________(Order order);
 }
