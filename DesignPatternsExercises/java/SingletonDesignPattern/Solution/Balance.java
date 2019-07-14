@@ -9,7 +9,7 @@ class Balance {
     }
 
     public static Balance getInstance() {
-        // if(__________(3)__________) {
+        // if (__________(3)__________) {
         if (firstInstance == null) {
             firstInstance = new Balance(100);
         }
