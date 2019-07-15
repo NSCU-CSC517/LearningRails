@@ -10,11 +10,11 @@ public class TreeSelector {
         else {
             Tree tree = null;
             if (treeType.equals("Oak Tree")) {
-                // tree = __________(8)__________ ();
+                // tree = __________(8)__________();
                 tree = new OakTree();
                 treeMap.put(treeType, tree);
             } else if (treeType.equals("Flowering Cherry")) {
-                // tree = __________(9)__________ ();
+                // tree = __________(9)__________();
                 tree = new FloweringCherry();
                 treeMap.put(treeType, tree);
             } else {

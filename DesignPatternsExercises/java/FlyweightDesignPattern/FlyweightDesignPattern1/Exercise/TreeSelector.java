@@ -10,10 +10,10 @@ public class TreeSelector {
         else {
             Tree tree = null;
             if (treeType.equals("Oak Tree")) {
-                tree = __________(8)__________ ();
+                tree = __________(8)__________();
                 treeMap.put(treeType, tree);
             } else if (treeType.equals("Flowering Cherry")) {
-                tree = __________(9)__________ ();
+                tree = __________(9)__________();
                 treeMap.put(treeType, tree);
             } else {
                 throw new IllegalArgumentException(treeType + " is not found");
