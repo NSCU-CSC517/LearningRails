@@ -19,6 +19,6 @@ To create exercises in the CS50 Sandbox, please follow the steps below:
 
 ## Solutions
 To test, view, and share solutions for the exercise 1 and 2 see content of the `Solution/` directories in 
-`FlyweightDesignPattern1` and `FlyweightDesignPattern1` directory respectively.
+`FlyweightDesignPattern1` and `FlyweightDesignPattern2` directory respectively.
 
 No need to change content of neither `Solution/` directory.
