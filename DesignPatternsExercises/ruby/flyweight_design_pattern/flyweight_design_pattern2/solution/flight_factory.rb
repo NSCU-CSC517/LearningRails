@@ -1,15 +1,19 @@
-require_relative 'Flight'
+require_relative 'flight'
+
 class FlightFactory
+  # def __________(3)__________
   def initialize
-    @flight_map = Hash.new
+    # __________(4)__________ = {}
+    @flight_map = {}
   end
 
-  def get_flight (flight_company)
-    if @flight_map.has_key?(flight_company) # > 1
-      @flight_map[flight_company]
-    else
-      flights = Flight.new(flight_company)
-      @flight_map[flight_company] = flights # > 2
-    end
+  def flight(flight_company)
+    # return @flight_map[flight_company] if __________(5)__________.key? flight_company
+    return @flight_map[flight_company] if @flight_map.key? flight_company
+
+    # flight = __________(6)__________(flight_company)
+    flight = Flight.new(flight_company)
+    @flight_map[flight_company] = flight
+    flight
   end
 end

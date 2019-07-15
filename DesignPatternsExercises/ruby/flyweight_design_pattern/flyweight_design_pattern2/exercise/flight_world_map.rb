@@ -3,15 +3,12 @@ require_relative 'flight_factory'
 class FlightWorldMap
   def initialize
     @flights = ['Air France', 'American Airlines', :BA, :Delta, :KLM, 'United Airlines']
-    # @factory = __________(7)__________
-    @factory = FlightFactory.new
+    @factory = __________(7)__________
   end
 
-  # def __________(8)__________
-  def display_all_flight
+  def __________(8)__________
     10.times do
-      # flight = __________(9)__________.flight(random_flight)
-      flight = @factory.flight(random_flight)
+      flight = __________(9)__________.flight(random_flight)
       flight.draw_on_map(random_flight_number, random_latitude, random_longitude)
     end
   end
@@ -28,8 +25,7 @@ class FlightWorldMap
     @flights[rand(0..5)]
   end
 
-  # def __________(10)__________
-  def random_flight_number
+  def __________(10)__________
     rand(100..900)
   end
 end
